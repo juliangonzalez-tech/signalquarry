@@ -10,6 +10,24 @@ accounts, no cloud, no paid services.
 > usernames and IP addresses from the ranges reserved for documentation (RFC 5737 / RFC 3849).
 > None of it is a real incident, and the app labels it as synthetic wherever it is shown.
 
+## Screenshots
+
+All three were captured from the running app with the bundled **synthetic** demo data (777 made-up
+events, 10 expected alerts). No real logs appear anywhere in this repository.
+
+**Overview** - headline numbers, severity counts and five charts for the current scope:
+
+![LogLens Overview page with metrics and charts](docs/screenshots/overview.png)
+
+**Alerts and evidence** - the alert table, and the inspector for one alert: why the rule fired,
+harmless explanations, and the exact log rows behind it:
+
+![LogLens Alerts page with the evidence inspector open](docs/screenshots/alerts-evidence.png)
+
+**Reports** - CSV exports and a plain-text summary that always match the current filters:
+
+![LogLens Reports page with the analysis summary preview](docs/screenshots/reports.png)
+
 ## The problem it addresses
 
 Security logs are long, noisy and written for machines. A person reviewing them has to answer
@@ -208,6 +226,29 @@ timestamp,source_ip,username,event_type,outcome,host,message
   alert inspector also says when an alert's evidence contains duplicates. See
   [Evaluation](#evaluation) for the measured trade-off.
 
+## Architecture
+
+Data flows one way, and every page reads the same "scope":
+
+```
+CSV bytes
+  -> parser.py        decode (UTF-8, 25 MB cap), validate each row, normalise (UTC time,
+                      lower-case account, canonical IP). Bad rows are rejected AND reported.
+  -> detection/       four rules run on ALL events; overlapping windows merge into one alert
+                      per cluster; alerts get stable IDs (ALR-0001...) that do not depend on
+                      the order of the file
+  -> pipeline.py      links every event to the alerts it supports
+  -> filters.py       the sidebar filters choose which events and alerts are DISPLAYED
+                      (detection is never re-run on filtered data)
+  -> metrics / charts / tables / reporting
+                      Overview, Alerts, Event explorer and Reports are all built from that
+                      one filtered scope, so their numbers cannot disagree
+```
+
+`loglens/ui/` holds the only Streamlit code (session state, sidebar, pages). Everything else is
+plain Python and pandas, so the parser and the rules can be tested and reused without a browser.
+The data lives in the browser session's memory only; nothing is written to disk.
+
 ## How the detections work
 
 All rules read the events as a set and use **real timestamps**, not row counts. A rolling window
@@ -301,7 +342,7 @@ false positives.
 `evaluation/` holds a second synthetic dataset, built **independently of the demo generator**:
 different accounts, addresses and dates, and expected alerts written by hand from the documented
 rules (not copied from LogLens output). It has 1,875 rows: 45 scripted cases (23 positive, 4
-boundary, 14 negative, 4 known blind spots) plus a week of routine traffic that cannot reach any
+boundary, 14 negative, 4 known-limitation cases) plus a week of routine traffic that cannot reach any
 threshold. Each case owns its accounts and addresses, so every alert can be attributed.
 
 ```bash
@@ -330,7 +371,7 @@ alert also had the expected severity and evidence count (41 of 41, and 39 of 39 
 Precision (matched / generated) is 95.3% and recall (matched / expected) is 100.0% in the first
 run, 100.0% and 95.1% in the second.
 
-The five documented blind spots are not counted as expected alerts; the check is that they stay
+The four known-limitation cases contain five documented blind spots. They are not counted as expected alerts; the check is that they stay
 silent, and they did in both runs (5 of 5). All other negative cases and the background week raised
 no alert, apart from the duplicate trade-off below, which goes one way in each run (full per-case
 table in [`evaluation/RESULTS.md`](evaluation/RESULTS.md)):
@@ -350,7 +391,7 @@ on real traffic. No real logs were used.
 
 ```bash
 pip install -r requirements-dev.txt
-pytest                # the automated test suite (about a minute)
+pytest                # the automated test suite (under a minute on a laptop)
 ruff check .          # lint
 ruff format --check . # formatting
 ```
@@ -433,9 +474,9 @@ dialog, drag-and-drop) and visual layout. Those were checked manually; see "Test
   `-`, `@`, tab or carriage return (after optional leading spaces) is prefixed with `'`.
 - The sample data contains no credentials; usernames are fictitious and addresses come from
   documentation ranges.
-- Dependencies were checked with `pip-audit` on 2026-10-23: no known vulnerabilities in
-  LogLens's runtime dependencies (only in an outdated `pip`, hence the upgrade step above). Re-run
-  it periodically; the result is only as current as the advisory database.
+- `pip-audit -r requirements.txt` reported no known vulnerabilities on 2026-10-24 (an earlier run
+  also flagged an outdated `pip`, hence the upgrade step above). Re-run it periodically; the
+  result is only as current as the advisory database.
 - LogLens analyses logs you choose to upload. It does not scan networks, read system logs, or
   attack anything.
 
@@ -490,8 +531,9 @@ hosted copy, and use only synthetic data for a public demo.
     took 1 to 2 s and the export about 8 s. The event table shows the first 20,000 rows; the CSV
     download always has all of them.
   - Nothing larger than the 25 MB limit was tested.
-- **Tested environments.** macOS, Python 3.13.5, the Claude desktop app's built-in browser.
-  Other operating systems, Python 3.11/3.12, and Chrome/Firefox/Safari were not tested.
+- **Tested environments.** macOS, Python 3.13.5, and the Claude desktop app's built-in browser.
+  Headless Google Chrome was used only to take the screenshots. Other operating systems, Python
+  3.11/3.12, Firefox and Safari were not tested.
 - `Time range` filtering has minute precision (the end minute is included in full).
 
 ## Project layout
@@ -531,11 +573,10 @@ it can be tested and reused independently.
 - **New log format:** write a parser that returns a table with the canonical columns plus
   `event_id` (see `parser.py::_finalise`). Nothing downstream changes.
 
-## How this project was built
+## AI assistance
 
-LogLens was built with the help of AI coding assistants (Anthropic's Claude), which wrote much
-of the code, tests and documentation under the author's direction. Claims in this README were
-checked by running the code: the test suite, the evaluation scorer and the app in a browser.
+AI tools were used during development, debugging, and testing. Project requirements, design
+decisions, and validation were directed by the developer.
 
 ## Third-party software
 
@@ -547,6 +588,11 @@ LogLens uses, but does not include, these open-source packages (installed by pip
 [pytest](https://github.com/pytest-dev/pytest) (MIT) and [Ruff](https://github.com/astral-sh/ruff)
 (MIT). The interface icons are Google's Material Symbols as bundled with Streamlit (Apache-2.0).
 The logo (`loglens/ui/assets/logo.svg`) and both datasets were made for this project.
+
+## License
+
+LogLens is released under the [MIT License](LICENSE). The third-party packages above keep their
+own licenses; none of their code is copied into this repository.
 
 ## Ideas for future work
 
