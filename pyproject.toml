@@ -3,6 +3,8 @@ name = "loglens"
 version = "0.1.0"
 description = "LogLens - a local, explainable security log analyzer built with Streamlit."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.11"
 dependencies = [
     "streamlit>=1.66,<2",
