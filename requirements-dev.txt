@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=9,<10
+# Held to one minor series: the formatter's output changes between minor releases, and CI
+# runs `ruff format --check`. Tested with 0.17.2.
+ruff>=0.17,<0.18

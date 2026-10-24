@@ -1,0 +1,6 @@
+# One line-ending convention on every platform. Some tests compare the checked-in evaluation
+# files byte for byte with freshly generated ones; a Windows checkout that rewrote them as CRLF
+# (Git's default core.autocrlf=true) would make those tests fail.
+* text=auto eol=lf
+*.png binary
+*.gif binary

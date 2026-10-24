@@ -1,0 +1,1304 @@
+{
+ "cases": [
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.10",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    }
+   ],
+   "id": "P01",
+   "ips": [
+    "198.51.100.10"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Password spraying, window exactly 10:00",
+   "users": [
+    "bvarga",
+    "dibarra",
+    "edelacroix",
+    "jtakahashi",
+    "randrade"
+   ],
+   "why": "5 failures from one IP spanning exactly 600 s: windows are inclusive, so LL-001 fires. Each account fails once, so LL-002 must not."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.11",
+     "events": 6,
+     "rule": "LL-001",
+     "severity": "medium"
+    },
+    {
+     "entity": "ixiong",
+     "events": 6,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "P02",
+   "ips": [
+    "198.51.100.11"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "One IP hammering one account",
+   "users": [
+    "ixiong"
+   ],
+   "why": "6 failures in 3 minutes from one IP against one account satisfies both LL-001 and LL-002; each rule reports one alert."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "evarga",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "P03",
+   "ips": [
+    "198.51.100.12",
+    "198.51.100.13",
+    "198.51.100.14",
+    "198.51.100.15",
+    "198.51.100.16"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "One account, five source IPs",
+   "users": [
+    "evarga"
+   ],
+   "why": "5 failures against one account from 5 different IPs in 6 minutes: LL-002 only; no single IP reaches 5."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.17",
+     "events": 15,
+     "rule": "LL-001",
+     "severity": "high"
+    }
+   ],
+   "id": "P04",
+   "ips": [
+    "198.51.100.17"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 15,
+   "title": "High-volume spray escalates severity",
+   "users": [
+    "afontaine",
+    "bandrade",
+    "czielinski",
+    "ehaldane",
+    "eyilmaz",
+    "fcardoso",
+    "fkowalczyk",
+    "fxiong",
+    "hdelacroix",
+    "heriksen",
+    "jkowalczyk",
+    "llindqvist",
+    "ltakahashi",
+    "odvorak",
+    "rfontaine"
+   ],
+   "why": "15 failures (one per account) from one IP in 9m20s: 15 = 3 x threshold, so LL-001 is raised from medium to high."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.18",
+     "events": 40,
+     "rule": "LL-001",
+     "severity": "high"
+    },
+    {
+     "entity": "ojovanovic",
+     "events": 40,
+     "rule": "LL-002",
+     "severity": "high"
+    }
+   ],
+   "id": "P05",
+   "ips": [
+    "198.51.100.18"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 40,
+   "title": "Sustained attack is ONE alert per rule",
+   "users": [
+    "ojovanovic"
+   ],
+   "why": "40 failures, one every 90 s for 58 minutes, from one IP against one account. Overlapping windows must merge into a single cluster per rule, not 36 alerts."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.19",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    },
+    {
+     "entity": "198.51.100.19",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    },
+    {
+     "entity": "ribarra",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    },
+    {
+     "entity": "ribarra",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "P06",
+   "ips": [
+    "198.51.100.19"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 10,
+   "title": "Two bursts 36 minutes apart are two alerts",
+   "users": [
+    "ribarra"
+   ],
+   "why": "5 failures, then 5 more starting 36 minutes after the first burst ended (window is 10 min): separate clusters, so two alerts per rule."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "nfontaine",
+     "events": 6,
+     "rule": "LL-002",
+     "severity": "medium"
+    },
+    {
+     "entity": "nfontaine",
+     "events": 7,
+     "rule": "LL-003",
+     "severity": "high"
+    }
+   ],
+   "id": "P07",
+   "ips": [
+    "198.51.100.20",
+    "198.51.100.21",
+    "198.51.100.22",
+    "198.51.100.23"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 7,
+   "title": "Failures from 3 IPs, success from a new IP",
+   "users": [
+    "nfontaine"
+   ],
+   "why": "6 failures against one account (2 from each of 3 IPs) then a success 4 minutes later from a fourth IP: LL-002, and LL-003 (high) with 6 failures + 1 success."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "spellegrini",
+     "events": 16,
+     "rule": "LL-002",
+     "severity": "high"
+    },
+    {
+     "entity": "spellegrini",
+     "events": 17,
+     "rule": "LL-003",
+     "severity": "critical"
+    }
+   ],
+   "id": "P08",
+   "ips": [
+    "198.51.100.24",
+    "198.51.100.25",
+    "198.51.100.26",
+    "198.51.100.27",
+    "198.51.100.28"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 17,
+   "title": "Large burst then success: critical",
+   "users": [
+    "spellegrini"
+   ],
+   "why": "16 failures (4 from each of 4 IPs) then a success: LL-002 high (16 >= 15) and LL-003 raised from high to critical (16 failures >= 15)."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "hgrigoryan",
+     "events": 4,
+     "rule": "LL-004",
+     "severity": "low"
+    }
+   ],
+   "id": "P09",
+   "ips": [
+    "198.51.100.29"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 4,
+   "title": "Four denials, window exactly 10:00",
+   "users": [
+    "hgrigoryan"
+   ],
+   "why": "4 access denials spanning exactly 600 s: LL-004 fires (inclusive window)."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "vjovanovic",
+     "events": 4,
+     "rule": "LL-004",
+     "severity": "low"
+    }
+   ],
+   "id": "P10",
+   "ips": [
+    "198.51.100.30"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 4,
+   "title": "Denied password changes count as denials",
+   "users": [
+    "vjovanovic"
+   ],
+   "why": "LL-004 counts every event with outcome 'denied', not only event_type 'access': the brief defines the outcome vocabulary as success / failure / denial."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "jvarga",
+     "events": 12,
+     "rule": "LL-004",
+     "severity": "medium"
+    }
+   ],
+   "id": "P11",
+   "ips": [
+    "198.51.100.31"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 12,
+   "title": "Twelve denials escalate LL-004",
+   "users": [
+    "jvarga"
+   ],
+   "why": "12 denials = 3 x the threshold of 4: severity low -> medium."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.32",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    }
+   ],
+   "id": "P12",
+   "ips": [
+    "198.51.100.32"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Mixed time-zone offsets",
+   "users": [
+    "hmoreau",
+    "lmoreau",
+    "mibarra",
+    "orasmussen",
+    "pbergstrom"
+   ],
+   "why": "5 failures within 8 UTC minutes, written with five different UTC offsets. The local clock readings span 20 hours, so only correct UTC conversion detects it."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "pnakagawa",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "P13",
+   "ips": [
+    "198.51.100.33",
+    "198.51.100.34",
+    "198.51.100.35",
+    "198.51.100.36",
+    "198.51.100.37"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Account name case and padding",
+   "users": [
+    "pnakagawa"
+   ],
+   "why": "5 failures against 'Xxxx', 'xxxx' and padded variants from 5 IPs: one account."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "2001:db8:e1::17",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    }
+   ],
+   "id": "P14",
+   "ips": [
+    "2001:db8:e1::17"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "One IPv6 host written two ways",
+   "users": [
+    "eulloa",
+    "ghaldane",
+    "jgrigoryan",
+    "okowalczyk",
+    "wabara"
+   ],
+   "why": "5 failures from 2001:db8:e1::17, spelled compressed and fully expanded in upper case: one source address."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.38",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    }
+   ],
+   "id": "P15",
+   "ips": [
+    "198.51.100.38"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "IPv4 and IPv4-mapped IPv6 are one host",
+   "users": [
+    "agrigoryan",
+    "gxiong",
+    "ilindqvist",
+    "mtakahashi",
+    "pxiong"
+   ],
+   "why": "3 failures from 198.51.100.x and 2 from ::ffff:198.51.100.x: one source."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.39",
+     "events": 6,
+     "rule": "LL-001",
+     "severity": "medium"
+    },
+    {
+     "entity": "gandrade",
+     "events": 6,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "P16",
+   "ips": [
+    "198.51.100.39"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Six failures in the same second",
+   "users": [
+    "gandrade"
+   ],
+   "why": "Identical timestamps, different messages: all six count (windows use real time, and a zero-length span is inside any window)."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "wgrigoryan",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    },
+    {
+     "entity": "wgrigoryan",
+     "events": 7,
+     "rule": "LL-003",
+     "severity": "high"
+    }
+   ],
+   "id": "P17",
+   "ips": [
+    "198.51.100.40",
+    "198.51.100.41",
+    "198.51.100.42"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 7,
+   "title": "Two successes after one burst: one LL-003 alert",
+   "users": [
+    "wgrigoryan"
+   ],
+   "why": "5 failures, then successes 2 and 6 minutes after the last one. Successes that follow the same burst are merged: one LL-003 alert (5 failures + 2 successes)."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "weriksen",
+     "events": 10,
+     "rule": "LL-002",
+     "severity": "medium"
+    },
+    {
+     "entity": "weriksen",
+     "events": 6,
+     "rule": "LL-003",
+     "severity": "high"
+    }
+   ],
+   "id": "P18",
+   "ips": [
+    "198.51.100.43",
+    "198.51.100.44",
+    "198.51.100.45",
+    "198.51.100.46"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 11,
+   "title": "Success in the middle of an ongoing attack",
+   "users": [
+    "weriksen"
+   ],
+   "why": "5 failures, a success, then 5 more failures (10 in exactly 10:00, spread over 3 IPs). LL-002 sees one cluster of 10; LL-003 flags the success against the first 5 failures only (the later ones came after it)."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.47",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    }
+   ],
+   "id": "P19",
+   "ips": [
+    "198.51.100.47"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Timestamps without an offset are read as UTC",
+   "users": [
+    "ecastellano",
+    "gyilmaz",
+    "ldvorak",
+    "rabara",
+    "sespinoza"
+   ],
+   "why": "5 failures from one IP, timestamps written without any UTC offset."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.48",
+     "events": 5,
+     "rule": "LL-001",
+     "severity": "medium"
+    }
+   ],
+   "id": "P20",
+   "ips": [
+    "198.51.100.48"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Fractional seconds",
+   "users": [
+    "aulloa",
+    "dforsberg",
+    "mespinoza",
+    "pdvorak",
+    "rgrigoryan"
+   ],
+   "why": "5 failures within 0.8 s, timestamps with milliseconds."
+  },
+  {
+   "duplicates_matter": true,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.49",
+     "events": 10,
+     "rule": "LL-001",
+     "severity": "medium"
+    },
+    {
+     "entity": "chaldane",
+     "events": 10,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "P21",
+   "ips": [
+    "198.51.100.49"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 10,
+   "title": "Scripted guessing logged at one-second resolution",
+   "users": [
+    "chaldane"
+   ],
+   "why": "10 identical failure rows (5 per second for 2 s). They are genuinely 10 attempts, but they are exact duplicates once the timestamp is rounded to the second. Detected only if exact duplicates are kept."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "anakagawa",
+     "events": 5,
+     "rule": "LL-004",
+     "severity": "low"
+    }
+   ],
+   "id": "P22",
+   "ips": [
+    "198.51.100.50"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Denied logins are LL-004, not LL-001/LL-002",
+   "users": [
+    "anakagawa"
+   ],
+   "why": "5 login events with outcome 'denied' (for example account locked): they are denials, not 'failed logins', so only LL-004 fires."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.51",
+     "events": 6,
+     "rule": "LL-001",
+     "severity": "medium"
+    },
+    {
+     "entity": "kespinoza",
+     "events": 6,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "P23",
+   "ips": [
+    "198.51.100.51"
+   ],
+   "kind": "positive",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Burst across UTC midnight",
+   "users": [
+    "kespinoza"
+   ],
+   "why": "6 failures from 23:57:00 to 00:02:00 UTC: the day boundary must not split it."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "gcardoso",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    },
+    {
+     "entity": "gcardoso",
+     "events": 6,
+     "rule": "LL-003",
+     "severity": "high"
+    }
+   ],
+   "id": "B01",
+   "ips": [
+    "198.51.100.52",
+    "198.51.100.53",
+    "198.51.100.54"
+   ],
+   "kind": "boundary",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Success exactly 15:00 after the burst",
+   "users": [
+    "gcardoso"
+   ],
+   "why": "5 failures ending at 4:00, a success at 19:00: gap of exactly 900 s, inclusive."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "kokafor",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "B02",
+   "ips": [
+    "198.51.100.55",
+    "198.51.100.56",
+    "198.51.100.57"
+   ],
+   "kind": "boundary",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Success 15:01 after the burst",
+   "users": [
+    "kokafor"
+   ],
+   "why": "Same as B01 but one second later: outside the investigation window, so only LL-002 fires."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "wpellegrini",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "B03",
+   "ips": [
+    "198.51.100.58",
+    "198.51.100.59",
+    "198.51.100.60"
+   ],
+   "kind": "boundary",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Failure and success in the same second",
+   "users": [
+    "wpellegrini"
+   ],
+   "why": "4 failures, then a 5th failure and a success both at 4:00. A failure logged in the same second as the success is not assumed to precede it, so the burst is not 'qualifying' yet and LL-003 stays silent (documented design decision)."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "jrasmussen",
+     "events": 5,
+     "rule": "LL-002",
+     "severity": "medium"
+    }
+   ],
+   "id": "B04",
+   "ips": [
+    "198.51.100.61",
+    "198.51.100.62",
+    "198.51.100.63"
+   ],
+   "kind": "boundary",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Success BEFORE the failures",
+   "users": [
+    "jrasmussen"
+   ],
+   "why": "A success at 0:00 and 5 failures afterwards: a success cannot 'follow' failures that have not happened yet. LL-002 only."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N01",
+   "ips": [
+    "198.51.100.64"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 4,
+   "title": "Four failures from one IP",
+   "users": [
+    "aforsberg",
+    "lulloa",
+    "mpellegrini",
+    "owojcik"
+   ],
+   "why": "One below the LL-001 threshold."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N02",
+   "ips": [
+    "198.51.100.65"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Five failures spanning 10:01 (one IP)",
+   "users": [
+    "amoreau",
+    "bsandoval",
+    "jbrennan",
+    "pabara",
+    "vdvorak"
+   ],
+   "why": "The 5th failure is 601 s after the first: outside the 10-minute window."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N03",
+   "ips": [
+    "198.51.100.66",
+    "198.51.100.67",
+    "198.51.100.68",
+    "198.51.100.69",
+    "198.51.100.70"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Five failures spanning 10:01 (one account)",
+   "users": [
+    "nzielinski"
+   ],
+   "why": "Same, but against one account from five IPs."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N04",
+   "ips": [
+    "198.51.100.71"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 7,
+   "title": "Three denials; four denials spanning 10:01",
+   "users": [
+    "apellegrini",
+    "tdelacroix"
+   ],
+   "why": "Below the LL-004 threshold, and just outside its window."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N05",
+   "ips": [
+    "198.51.100.72",
+    "198.51.100.73",
+    "198.51.100.74"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Success after only four failures",
+   "users": [
+    "alindqvist"
+   ],
+   "why": "No qualifying burst (4 < 5), so a following success is not suspicious."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N06",
+   "ips": [
+    "198.51.100.75"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 30,
+   "title": "Morning rush: 30 accounts log in within 3 minutes",
+   "users": [
+    "aespinoza",
+    "ayilmaz",
+    "bnakagawa",
+    "bpellegrini",
+    "cibarra",
+    "dabara",
+    "djovanovic",
+    "dmoreau",
+    "dxiong",
+    "fwojcik",
+    "glindqvist",
+    "jfontaine",
+    "kcardoso",
+    "kulloa",
+    "kvarga",
+    "kwojcik",
+    "mquintero",
+    "nkowalczyk",
+    "nnakagawa",
+    "obergstrom",
+    "pvarga",
+    "pwojcik",
+    "rwojcik",
+    "rxiong",
+    "sjovanovic",
+    "swojcik",
+    "vtakahashi",
+    "vulloa",
+    "wsandoval",
+    "wulloa"
+   ],
+   "why": "High volume of successes from one office IP is normal."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N07",
+   "ips": [
+    "198.51.100.76"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 60,
+   "title": "Nightly batch job: 60 successful accesses in 5 minutes",
+   "users": [
+    "nokafor"
+   ],
+   "why": "A service account reading many resources; all successes."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N08",
+   "ips": [
+    "198.51.100.77"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 8,
+   "title": "Shared NAT address, slow trickle of mistakes",
+   "users": [
+    "ceriksen",
+    "hcastellano",
+    "mgrigoryan",
+    "nyilmaz",
+    "ozielinski",
+    "respinoza",
+    "rokafor",
+    "vpellegrini"
+   ],
+   "why": "8 colleagues behind one IP mistype a password once each, 20 minutes apart."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N09",
+   "ips": [
+    "198.51.100.78"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 4,
+   "title": "Typo, typo, typo, success",
+   "users": [
+    "eespinoza"
+   ],
+   "why": "A user fails 3 times and then logs in: the everyday pattern LL-003 must not flag (below the burst threshold)."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N10",
+   "ips": [
+    "198.51.100.79",
+    "198.51.100.80",
+    "198.51.100.81",
+    "198.51.100.82",
+    "198.51.100.83"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 5,
+   "title": "Five failures, five IPs, five accounts",
+   "users": [
+    "aquintero",
+    "eokafor",
+    "ncardoso",
+    "pulloa",
+    "sandrade"
+   ],
+   "why": "Five failures in 4 minutes, but no IP and no account has more than one."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N11",
+   "ips": [
+    "198.51.100.84"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Six denials spread over three accounts",
+   "users": [
+    "ekowalczyk",
+    "fjovanovic",
+    "pmoreau"
+   ],
+   "why": "Two denials per account is below the per-account threshold."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N12",
+   "ips": [
+    "198.51.100.85"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 20,
+   "title": "Logouts and successful password changes",
+   "users": [
+    "hyilmaz"
+   ],
+   "why": "Routine account maintenance events: no failures, no denials."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "N13",
+   "ips": [
+    "198.51.100.86"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 10,
+   "title": "Intermittent failures, 6 minutes apart",
+   "users": [
+    "ldelacroix"
+   ],
+   "why": "Failure / success alternating every 3 minutes: 5 failures take 24 minutes, far outside the 10-minute window."
+  },
+  {
+   "duplicates_matter": true,
+   "expected_alerts": [],
+   "id": "N14",
+   "ips": [
+    "198.51.100.87"
+   ],
+   "kind": "negative",
+   "missed_by_design": [],
+   "rows": 6,
+   "title": "Replayed log lines (each failure shipped twice)",
+   "users": [
+    "awojcik"
+   ],
+   "why": "3 genuine failures, each appearing twice because a log forwarder retried. If exact duplicates are kept the account looks like it has 6 failures."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "K01",
+   "ips": [
+    "198.51.100.88"
+   ],
+   "kind": "limitation",
+   "missed_by_design": [
+    {
+     "entity": "198.51.100.88",
+     "rule": "LL-001",
+     "why": "never 5 failures within 10 minutes"
+    },
+    {
+     "entity": "vyilmaz",
+     "rule": "LL-002",
+     "why": "never 5 failures within 10 minutes"
+    }
+   ],
+   "rows": 40,
+   "title": "Low and slow guessing",
+   "users": [
+    "vyilmaz"
+   ],
+   "why": "40 failures against one account over two hours, one every 3 minutes. No 10-minute window holds more than 4, so nothing fires. Fixed thresholds cannot see this."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "K02",
+   "ips": [
+    "198.51.100.100",
+    "198.51.100.101",
+    "198.51.100.102",
+    "198.51.100.103",
+    "198.51.100.104",
+    "198.51.100.105",
+    "198.51.100.106",
+    "198.51.100.107",
+    "198.51.100.108",
+    "198.51.100.109",
+    "198.51.100.110",
+    "198.51.100.111",
+    "198.51.100.112",
+    "198.51.100.113",
+    "198.51.100.114",
+    "198.51.100.115",
+    "198.51.100.116",
+    "198.51.100.117",
+    "198.51.100.118",
+    "198.51.100.119",
+    "198.51.100.120",
+    "198.51.100.121",
+    "198.51.100.122",
+    "198.51.100.123",
+    "198.51.100.124",
+    "198.51.100.125",
+    "198.51.100.126",
+    "198.51.100.127",
+    "198.51.100.128",
+    "198.51.100.89",
+    "198.51.100.90",
+    "198.51.100.91",
+    "198.51.100.92",
+    "198.51.100.93",
+    "198.51.100.94",
+    "198.51.100.95",
+    "198.51.100.96",
+    "198.51.100.97",
+    "198.51.100.98",
+    "198.51.100.99"
+   ],
+   "kind": "limitation",
+   "missed_by_design": [
+    {
+     "entity": "-",
+     "rule": "(none)",
+     "why": "no single IP or account has more than one failure"
+    }
+   ],
+   "rows": 40,
+   "title": "Distributed spray: 40 IPs x 40 accounts",
+   "users": [
+    "beriksen",
+    "bforsberg",
+    "bjovanovic",
+    "cxiong",
+    "dokafor",
+    "dwojcik",
+    "eandrade",
+    "ffontaine",
+    "fvarga",
+    "gjovanovic",
+    "hpellegrini",
+    "iforsberg",
+    "iibarra",
+    "jespinoza",
+    "jlindqvist",
+    "jnakagawa",
+    "kbergstrom",
+    "leriksen",
+    "lpellegrini",
+    "mnakagawa",
+    "nquintero",
+    "onakagawa",
+    "pbrennan",
+    "pespinoza",
+    "pkowalczyk",
+    "rjovanovic",
+    "rkowalczyk",
+    "rquintero",
+    "sfontaine",
+    "smoreau",
+    "stakahashi",
+    "syilmaz",
+    "tdvorak",
+    "tyilmaz",
+    "vespinoza",
+    "vgrigoryan",
+    "vrasmussen",
+    "vzielinski",
+    "wbrennan",
+    "wzielinski"
+   ],
+   "why": "40 failures in 10 minutes, but every IP and every account appears once. Each rule groups by one key, so none sees the campaign."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "K03",
+   "ips": [
+    "198.51.100.129",
+    "198.51.100.130",
+    "198.51.100.131",
+    "198.51.100.132",
+    "198.51.100.133",
+    "198.51.100.134"
+   ],
+   "kind": "limitation",
+   "missed_by_design": [
+    {
+     "entity": "pforsberg",
+     "rule": "LL-002",
+     "why": "account-name variants are different accounts to LogLens"
+    }
+   ],
+   "rows": 6,
+   "title": "One identity written three ways",
+   "users": [
+    "corp\\pforsberg",
+    "pforsberg",
+    "pforsberg@example.test"
+   ],
+   "why": "6 failures against corp\\x, x@example.test and x (2 each). LogLens treats them as three accounts, so no burst reaches 5."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [
+    {
+     "entity": "198.51.100.135",
+     "events": 8,
+     "rule": "LL-001",
+     "severity": "medium"
+    }
+   ],
+   "id": "K04",
+   "ips": [
+    "198.51.100.135"
+   ],
+   "kind": "limitation",
+   "missed_by_design": [
+    {
+     "entity": "ddelacroix",
+     "rule": "LL-003",
+     "why": "LL-003 correlates per account; the spray is per IP"
+    }
+   ],
+   "rows": 9,
+   "title": "Password spray, then a success from the same IP",
+   "users": [
+    "bokafor",
+    "ddelacroix",
+    "ezielinski",
+    "idvorak",
+    "imoreau",
+    "jdvorak",
+    "trasmussen",
+    "vcardoso"
+   ],
+   "why": "8 accounts fail once each from one IP (LL-001 fires), then one of them succeeds from that IP. LL-003 needs 5 failures against the SAME account, so the success is not linked to the spray."
+  },
+  {
+   "duplicates_matter": false,
+   "expected_alerts": [],
+   "id": "BG",
+   "ips": [
+    "198.51.100.136",
+    "198.51.100.137",
+    "198.51.100.138",
+    "198.51.100.139",
+    "198.51.100.140",
+    "198.51.100.141",
+    "198.51.100.142",
+    "198.51.100.143",
+    "198.51.100.144",
+    "198.51.100.145",
+    "198.51.100.146",
+    "198.51.100.147"
+   ],
+   "kind": "background",
+   "missed_by_design": [],
+   "rows": 1381,
+   "title": "A week of routine traffic (30 accounts)",
+   "users": [
+    "bcastellano",
+    "cabara",
+    "cbergstrom",
+    "clindqvist",
+    "ddvorak",
+    "despinoza",
+    "dgrigoryan",
+    "efontaine",
+    "fbergstrom",
+    "fespinoza",
+    "gdvorak",
+    "gforsberg",
+    "gkowalczyk",
+    "habara",
+    "ipellegrini",
+    "jokafor",
+    "jxiong",
+    "kdvorak",
+    "labara",
+    "lfontaine",
+    "mulloa",
+    "nvarga",
+    "obrennan",
+    "rcardoso",
+    "sibarra",
+    "snakagawa",
+    "tandrade",
+    "tulloa",
+    "vwojcik",
+    "wwojcik"
+   ],
+   "why": "About 1,000 successful logins/accesses, plus single failures at least 36 minutes apart and single denials at least 53 minutes apart. By construction no rule applies."
+  }
+ ],
+ "description": "Independent synthetic evaluation set for LogLens. All data is made up.",
+ "seed": 20260609,
+ "total_rows": 1875
+}

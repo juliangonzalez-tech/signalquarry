@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Test, lint and coverage caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editors and operating system
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local tooling configuration (not part of the project)
+.claude/
+
+# Secrets: Streamlit's secrets file and environment files
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Real or private logs must never be committed. Only the synthetic files are tracked:
+#   data/sample_logs_synthetic.csv
+#   evaluation/eval_logs_synthetic.csv
+/*.csv
+data/*
+!data/sample_logs_synthetic.csv
+*.private.csv

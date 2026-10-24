@@ -1,0 +1,1876 @@
+timestamp,source_ip,username,event_type,outcome,host,message
+2026-06-13T12:01:30Z,198.51.100.131,pforsberg,login,failure,auth-01,Invalid password
+2026-06-14T11:31:04Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T03:00:24Z,198.51.100.75,glindqvist,login,success,auth-01,Login accepted
+2026-06-12T13:36:42Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-11T21:03:20Z,198.51.100.71,apellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T17:36:36Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-08T20:20:18Z,198.51.100.138,ipellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T11:00:18Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-09T16:08:40Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-09T15:28:42Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-11T13:09:56Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-08T00:41:59Z,198.51.100.137,bcastellano,login,failure,auth-01,Invalid password
+2026-06-08T15:45:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T09:20:00Z,198.51.100.77,ozielinski,login,failure,auth-01,Invalid password
+2026-06-09T17:01:32Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-08T10:52:03Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-13T00:03:00Z,198.51.100.86,ldelacroix,login,success,auth-01,Login accepted
+2026-06-14T15:06:03Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-12T14:27:33Z,198.51.100.136,fbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T12:16:02Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-09T18:46:30Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-10T10:17:39Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-08T00:04:24Z,198.51.100.142,mulloa,login,failure,auth-01,Invalid password
+2026-06-11T18:20:49Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-12T18:54:13Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T13:39:11Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-09T15:53:25Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-13T14:28:51Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-13T07:05:27Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-08T01:22:38Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-13T15:02:00Z,198.51.100.135,bokafor,login,failure,auth-01,Invalid password
+2026-06-09T17:30:00+05:30,198.51.100.32,orasmussen,login,failure,auth-01,Invalid password
+2026-06-10T19:40:56Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-12T09:39:45Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-10T06:07:00Z,198.51.100.43,weriksen,login,failure,auth-01,Invalid password
+2026-06-14T10:10:12Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-13T03:01:00Z,198.51.100.87,awojcik,login,failure,auth-01,Invalid password
+2026-06-09T11:55:51Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-10T08:33:51Z,198.51.100.136,lfontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T12:08:39Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-14T13:12:21Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-09T07:29:39Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-09T15:02:00Z,198.51.100.35,  PNAKAGAWA ,login,failure,auth-01,Invalid password
+2026-06-08T11:52:40Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-14T11:04:38Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-10T14:28:18Z,198.51.100.141,ddvorak,login,success,sso-01,
+2026-06-13T15:00:00Z,198.51.100.135,ddelacroix,login,failure,auth-01,Invalid password
+2026-06-11T16:20:28Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-13T08:08:57Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-13T06:21:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-11T18:07:25Z,198.51.100.136,vwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T17:30:18Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-14T16:42:45Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-09T10:11:12Z,198.51.100.142,habara,login,failure,auth-01,Invalid password
+2026-06-08T08:14:47Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-08T21:53:11Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-14T13:02:43Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-14T09:05:41Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-13T09:00:30Z,198.51.100.91,jlindqvist,login,failure,auth-01,Invalid password
+2026-06-12T17:07:34Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-10T15:00:00Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-12T16:24:22Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-11T09:43:47Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-13T18:43:07Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-14T18:37:19Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-09T11:13:10Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-09T13:36:44Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-14T10:21:28Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-13T09:05:45Z,198.51.100.112,eandrade,login,failure,auth-01,Invalid password
+2026-06-13T13:17:14Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-08T19:10:01Z,198.51.100.138,ipellegrini,login,failure,auth-01,Invalid password
+2026-06-12T06:00:15Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T15:01:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T07:41:53Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-14T12:17:59Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-08T23:58:41Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-13T16:01:26Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-12T09:41:53Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-14T09:04:29Z,198.51.100.137,cbergstrom,login,failure,auth-01,Invalid password
+2026-06-12T10:20:00Z,198.51.100.77,hcastellano,login,failure,auth-01,Invalid password
+2026-06-08T04:08:06Z,198.51.100.140,gforsberg,login,failure,auth-01,Invalid password
+2026-06-10T00:38:41Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T10:45:18Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-10T08:06:09Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-13T11:54:04Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-08T03:05:00Z,198.51.100.10,jtakahashi,login,failure,auth-01,Invalid password
+2026-06-10T15:53:02Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-09T14:28:25Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-09T11:15:13Z,198.51.100.139,gkowalczyk,logout,success,sso-01,
+2026-06-14T03:33:49Z,198.51.100.136,vwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T06:55:11Z,198.51.100.138,ipellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T20:54:01Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T08:21:17Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-12T06:03:55Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T08:24:59Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T05:02:00-07:00,198.51.100.32,mibarra,login,failure,auth-01,Invalid password
+2026-06-10T02:38:12Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-10T00:00:00Z,198.51.100.39,gandrade,login,failure,auth-01,Invalid password (attempt 1)
+2026-06-12T05:53:45Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-11T06:01:00Z,198.51.100.59,wpellegrini,login,failure,auth-01,Invalid password
+2026-06-08T12:08:40Z,198.51.100.17,llindqvist,login,failure,auth-01,Invalid password
+2026-06-09T12:57:37Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-14T05:43:24Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-14T17:55:47Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-09T15:24:54Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-12T06:02:20Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T07:18:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-11T21:02:00Z,198.51.100.71,tdelacroix,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T12:53:45Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-08T15:48:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T13:26:41Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-09T15:24:56Z,198.51.100.137,cbergstrom,logout,success,sso-01,
+2026-06-08T14:49:12Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-11T21:00:00Z,198.51.100.71,apellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T12:21:02Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-09T18:15:02Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-08T21:09:00Z,198.51.100.23,nfontaine,login,success,auth-01,Login accepted
+2026-06-12T21:01:10Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-08T15:51:52Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-09T18:03:00Z,2001:0DB8:00E1:0000:0000:0000:0000:0017,eulloa,login,failure,auth-01,Invalid password
+2026-06-12T07:11:43Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-11T03:03:00Z,198.51.100.56,kokafor,login,failure,auth-01,Invalid password
+2026-06-10T00:00:00Z,198.51.100.39,gandrade,login,failure,auth-01,Invalid password (attempt 2)
+2026-06-13T07:00:26Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-12T12:00:40Z,198.51.100.78,eespinoza,login,failure,auth-01,Invalid password
+2026-06-14T09:13:49Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-08T17:56:50Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-12T13:59:42Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-13T09:03:15Z,198.51.100.102,iforsberg,login,failure,auth-01,Invalid password
+2026-06-08T08:13:05Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-09T12:15:29Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-09T09:02:44Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-11T15:16:21Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-14T17:55:08Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-11T12:55:55Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-11T12:25:24Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-12T06:03:25Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T12:55:08Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-13T06:24:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-13T09:00:49Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T07:36:37Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-11T09:19:41Z,198.51.100.137,cbergstrom,login,failure,auth-01,Invalid password
+2026-06-10T17:37:08Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-12T09:38:28Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-08T12:09:20Z,198.51.100.17,afontaine,login,failure,auth-01,Invalid password
+2026-06-08T17:47:51Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-13T03:00:00Z,198.51.100.87,awojcik,login,failure,auth-01,Invalid password
+2026-06-14T10:57:57Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-14T09:57:56Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-13T12:00:45Z,198.51.100.130,pforsberg@example.test,login,failure,auth-01,Invalid password
+2026-06-09T01:37:56Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T15:07:55Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-09T18:55:47Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-11T11:51:20Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-12T10:06:08Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-12T11:51:19Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-14T15:52:36Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-11T07:16:14Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-09T08:21:43Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-12T18:41:57Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-12T07:31:52Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-09T08:09:42Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-11T03:51:14Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-10T06:08:00Z,198.51.100.44,weriksen,login,failure,auth-01,Invalid password
+2026-06-08T10:15:22Z,198.51.100.141,nvarga,login,failure,auth-01,Invalid password
+2026-06-13T05:46:44Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-12T13:24:28Z,198.51.100.139,jxiong,login,failure,auth-01,Invalid password
+2026-06-11T11:30:13Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-09T15:34:20Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-08T11:05:23Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-09T10:58:45Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-12T21:31:19Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T08:41:50Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-11T16:28:45Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-13T07:48:49Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-09T13:13:03Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-08T05:29:46Z,198.51.100.137,bcastellano,login,failure,auth-01,Invalid password
+2026-06-11T10:01:34Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-12T21:01:40Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-09T04:21:00Z,198.51.100.138,jokafor,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T12:03:00Z,198.51.100.133,pforsberg@example.test,login,failure,auth-01,Invalid password
+2026-06-09T16:21:41Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-08T15:19:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-11T08:53:01Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-09T00:02:00Z,198.51.100.24,spellegrini,login,failure,auth-01,Invalid password
+2026-06-08T10:15:07Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-09T09:02:40Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T13:34:38Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-11T16:45:52Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-14T04:19:46Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-08T07:09:44Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-09T15:14:49Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-10T18:24:49Z,198.51.100.139,jxiong,logout,success,sso-01,
+2026-06-11T20:45:44Z,198.51.100.143,tulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T07:45:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T15:24:48Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-12T00:00:00Z,198.51.100.72,alindqvist,login,failure,auth-01,Invalid password
+2026-06-12T07:47:09Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-12T15:00:00Z,198.51.100.79,aquintero,login,failure,auth-01,Invalid password
+2026-06-10T16:15:56Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-10T15:13:04Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-10T00:00:00Z,198.51.100.39,gandrade,login,failure,auth-01,Invalid password (attempt 3)
+2026-06-11T15:07:30Z,198.51.100.65,vdvorak,login,failure,auth-01,Invalid password
+2026-06-11T08:19:51Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-08T12:00:00Z,198.51.100.17,hdelacroix,login,failure,auth-01,Invalid password
+2026-06-13T09:08:15Z,198.51.100.122,beriksen,login,failure,auth-01,Invalid password
+2026-06-10T14:14:12Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-08T03:07:30Z,198.51.100.10,randrade,login,failure,auth-01,Invalid password
+2026-06-08T17:15:27Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-09T14:10:04Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-09T08:38:00-03:30,198.51.100.32,hmoreau,login,failure,auth-01,Invalid password
+2026-06-14T16:04:27Z,198.51.100.139,gkowalczyk,logout,success,sso-01,
+2026-06-11T18:29:14Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-08T18:43:17Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-09T02:40:37Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-11T15:56:19Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-12T14:17:12Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-12T10:14:32Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-09T10:30:24Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T15:02:30Z,198.51.100.135,imoreau,login,failure,auth-01,Invalid password
+2026-06-12T10:51:24Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-12T18:01:40Z,198.51.100.84,fjovanovic,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T07:07:26Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-12T10:04:47Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T07:26:35Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-14T16:08:19Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-10T13:39:36Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-12T09:59:30Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-10T18:02:24Z,198.51.100.50,anakagawa,login,denied,auth-01,Account locked
+2026-06-10T09:26:06Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-10T00:00:00Z,198.51.100.39,gandrade,login,failure,auth-01,Invalid password (attempt 6)
+2026-06-08T07:48:47Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-13T09:07:30Z,198.51.100.119,rjovanovic,login,failure,auth-01,Invalid password
+2026-06-11T03:01:00Z,198.51.100.56,kokafor,login,failure,auth-01,Invalid password
+2026-06-11T07:58:42Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-11T17:01:59Z,198.51.100.139,jxiong,logout,success,sso-01,
+2026-06-11T14:48:04Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-11T12:00:00Z,198.51.100.64,owojcik,login,failure,auth-01,Invalid password
+2026-06-13T10:36:35Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-10T09:04:44Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-14T08:50:07Z,198.51.100.138,ipellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T03:00:30Z,198.51.100.75,dabara,login,success,auth-01,Login accepted
+2026-06-11T18:44:20Z,198.51.100.138,ipellegrini,logout,success,sso-01,
+2026-06-09T09:07:57Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-12T15:06:06Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-13T00:18:00Z,198.51.100.86,ldelacroix,login,failure,auth-01,Invalid password
+2026-06-08T12:22:16Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-08T11:37:10Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-13T18:07:44Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-10T15:49:39Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-13T10:08:58Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-10T17:43:42Z,198.51.100.139,gkowalczyk,logout,success,sso-01,
+2026-06-14T14:45:14Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-09T06:01:30Z,198.51.100.30,vjovanovic,password_change,denied,auth-01,Password change refused by policy
+2026-06-14T00:55:52Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T03:43:02Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-08T09:13:08Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-12T00:02:00Z,198.51.100.72,alindqvist,login,failure,auth-01,Invalid password
+2026-06-10T01:12:33Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-14T11:22:56Z,198.51.100.136,lfontaine,logout,success,sso-01,
+2026-06-09T00:03:30Z,198.51.100.27,spellegrini,login,failure,auth-01,Invalid password
+2026-06-13T07:09:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T18:03:20Z,198.51.100.84,ekowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T21:43:39Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-10T16:02:16Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-12T03:01:48Z,198.51.100.75,rwojcik,login,success,auth-01,Login accepted
+2026-06-08T10:47:58Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-13T14:52:40Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-14T09:30:59Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-12T10:54:09Z,198.51.100.136,fbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T07:40:16Z,198.51.100.140,snakagawa,logout,success,sso-01,
+2026-06-14T15:42:49Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-09T08:10:11Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-08T07:07:41Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T13:52:21Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-08T13:57:14Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-10T18:17:57Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-08T15:22:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T14:09:49Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-13T15:03:30Z,198.51.100.135,jdvorak,login,failure,auth-01,Invalid password
+2026-06-08T11:55:48Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-10T12:40:15Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-09T16:45:41Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-08T18:38:01Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-09T00:00:00Z,198.51.100.24,spellegrini,login,failure,auth-01,Invalid password
+2026-06-08T08:45:25Z,198.51.100.143,tulloa,logout,success,sso-01,
+2026-06-13T01:05:01Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T15:13:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-10T15:00:01Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-12T13:35:51Z,198.51.100.137,bcastellano,logout,success,sso-01,
+2026-06-11T08:09:10Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-13T09:02:15Z,198.51.100.98,fvarga,login,failure,auth-01,Invalid password
+2026-06-12T18:00:00Z,198.51.100.84,pmoreau,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T16:28:32Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-09T21:04:00Z,::ffff:198.51.100.38,mtakahashi,login,failure,auth-01,Invalid password
+2026-06-11T18:07:30Z,198.51.100.69,nzielinski,login,failure,auth-01,Invalid password
+2026-06-13T09:07:00Z,198.51.100.117,gjovanovic,login,failure,auth-01,Invalid password
+2026-06-14T12:14:48Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-10T18:04:08Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-08T08:19:46Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-12T10:52:36Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-13T11:13:11Z,198.51.100.140,snakagawa,logout,success,sso-01,
+2026-06-13T09:05:15Z,198.51.100.110,tdvorak,login,failure,auth-01,Invalid password
+2026-06-08T09:34:59Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-10T16:05:29Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-10T08:40:49Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-13T03:02:19Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-08T06:03:00Z,198.51.100.11,ixiong,login,failure,auth-01,Invalid password
+2026-06-13T06:00:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-09T18:40:27Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-12T06:03:30Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T09:28:14Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-08T09:19:59Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-10T15:00:00Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-14T18:00:06Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-11T16:49:04Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-14T05:20:18Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T14:56:54Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-13T10:44:13Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-10T08:06:19Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-12T14:42:43Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-09T18:37:07Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-11T11:51:12Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-12T12:31:15Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-12T12:55:47Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-08T09:46:15Z,198.51.100.142,habara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T00:02:00Z,198.51.100.51,kespinoza,login,failure,auth-01,Invalid password
+2026-06-11T12:58:05Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-11T00:02:00Z,198.51.100.52,gcardoso,login,failure,auth-01,Invalid password
+2026-06-10T07:06:55Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-13T16:33:33Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-13T16:25:23Z,198.51.100.141,ddvorak,login,success,sso-01,
+2026-06-08T14:07:58Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-13T07:01:42Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-10T13:14:25Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-09T07:57:10Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-14T09:55:03Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-13T11:14:38Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-13T14:42:13Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-08T18:04:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-13T10:48:46Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-13T17:51:16Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-09T18:14:15Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-10T14:54:30Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-10T10:56:46Z,198.51.100.147,fespinoza,logout,success,sso-01,
+2026-06-12T10:51:22Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-08T07:45:03Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-12T09:18:58Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-14T14:09:36Z,198.51.100.141,ddvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T09:10:45Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T06:02:10Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T17:29:22Z,198.51.100.136,lfontaine,logout,success,sso-01,
+2026-06-10T17:59:47Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-13T11:51:03Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-13T15:33:25Z,198.51.100.147,fespinoza,logout,success,sso-01,
+2026-06-12T16:19:50Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-10T11:31:01Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-11T06:38:39Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-08T11:52:52Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-12T17:35:45Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-09T15:01:00Z,198.51.100.34,pnakagawa,login,failure,auth-01,Invalid password
+2026-06-10T12:17:51Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-12T06:02:00Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T10:55:17Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-09T13:38:20Z,198.51.100.138,ipellegrini,logout,success,sso-01,
+2026-06-13T08:22:03Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-13T13:24:05Z,198.51.100.142,mulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T14:36:17Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-08T20:34:31Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-11T04:32:26Z,198.51.100.141,nvarga,login,failure,auth-01,Invalid password
+2026-06-12T21:35:57Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-10T17:13:32Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-11T09:00:00Z,198.51.100.63,jrasmussen,login,success,auth-01,Login accepted
+2026-06-12T09:30:52Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-12T06:02:50Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T12:06:00Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-14T11:32:24Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-13T09:09:30Z,198.51.100.127,ffontaine,login,failure,auth-01,Invalid password
+2026-06-12T03:00:12Z,198.51.100.75,bpellegrini,login,success,auth-01,Login accepted
+2026-06-12T06:03:50Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T12:59:55Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T18:05:05Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-08T12:04:00Z,198.51.100.17,ehaldane,login,failure,auth-01,Invalid password
+2026-06-13T07:58:13Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-13T12:34:37Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-08T15:46:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T13:06:57Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-09T15:20:49Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-10T03:18:11Z,198.51.100.137,bcastellano,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T08:30:36Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-13T04:35:25Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T15:04:41Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-13T12:00:00Z,198.51.100.129,corp\pforsberg,login,failure,auth-01,Invalid password
+2026-06-13T14:45:37Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-08T15:21:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-14T08:25:48Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-11T18:10:01Z,198.51.100.70,nzielinski,login,failure,auth-01,Invalid password
+2026-06-13T09:12:27Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-08T15:49:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T21:04:30Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-11T10:42:12Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-09T15:42:33Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-09T13:12:47Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-13T07:03:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T18:01:36Z,198.51.100.50,anakagawa,login,denied,auth-01,Account locked
+2026-06-12T06:01:05Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T09:00:15Z,198.51.100.90,jnakagawa,login,failure,auth-01,Invalid password
+2026-06-10T03:02:00Z,198.51.100.40,wgrigoryan,login,failure,auth-01,Invalid password
+2026-06-13T09:50:45Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-14T15:03:52Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-11T15:05:00Z,198.51.100.65,pabara,login,failure,auth-01,Invalid password
+2026-06-10T14:37:46Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-13T06:25:59Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-12T11:55:09Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-12T06:00:00Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T08:08:18Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-13T06:12:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-13T06:15:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-13T10:38:51Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-12T16:05:06Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-12T12:47:28Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-14T12:44:23Z,198.51.100.139,jxiong,logout,success,sso-01,
+2026-06-11T12:03:19Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-12T16:12:07Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-11T03:04:00Z,198.51.100.55,kokafor,login,failure,auth-01,Invalid password
+2026-06-09T14:08:37Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-12T06:01:10Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T13:00:19Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-12T13:26:36Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-10T12:53:02Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-13T09:01:30Z,198.51.100.95,dwojcik,login,failure,auth-01,Invalid password
+2026-06-12T06:03:05Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T01:57:07Z,198.51.100.141,dgrigoryan,login,failure,auth-01,Invalid password
+2026-06-11T18:02:30Z,198.51.100.67,nzielinski,login,failure,auth-01,Invalid password
+2026-06-12T12:00:00Z,198.51.100.78,eespinoza,login,failure,auth-01,Invalid password
+2026-06-12T14:44:11Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-08T11:44:41Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-08T07:55:53Z,198.51.100.136,lfontaine,logout,success,sso-01,
+2026-06-13T15:46:24Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-09T18:44:34Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-13T14:37:43Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-08T16:26:37Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-11T19:34:47Z,198.51.100.138,ipellegrini,login,failure,auth-01,Invalid password
+2026-06-10T09:01:00,198.51.100.47,rabara,login,failure,auth-01,Invalid password
+2026-06-09T16:47:33Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-10T21:04:06Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-13T09:17:34Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-12T13:35:57Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-10T06:00:00Z,198.51.100.43,weriksen,login,failure,auth-01,Invalid password
+2026-06-09T09:13:47Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-14T14:33:49Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-08T03:32:45Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T10:39:01Z,198.51.100.143,tulloa,login,failure,auth-01,Invalid password
+2026-06-14T16:50:14Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T03:12:00Z,198.51.100.139,jxiong,login,failure,auth-01,Invalid password
+2026-06-13T16:32:03Z,198.51.100.137,bcastellano,logout,success,sso-01,
+2026-06-13T15:30:47Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-13T19:27:26Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-12T23:59:00Z,198.51.100.51,kespinoza,login,failure,auth-01,Invalid password
+2026-06-09T06:00:45Z,198.51.100.30,vjovanovic,password_change,denied,auth-01,Password change refused by policy
+2026-06-12T06:04:45Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T06:01:50Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T13:48:15Z,198.51.100.137,cbergstrom,logout,success,sso-01,
+2026-06-13T09:03:39Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-12T21:04:10Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-14T02:17:58Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-11T13:17:38Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-11T03:19:01Z,198.51.100.57,kokafor,login,success,auth-01,Login accepted
+2026-06-12T03:02:42Z,198.51.100.75,kulloa,login,success,auth-01,Login accepted
+2026-06-10T17:34:30Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-11T13:27:46Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-13T09:03:00Z,198.51.100.101,wbrennan,login,failure,auth-01,Invalid password
+2026-06-14T08:25:53Z,198.51.100.140,snakagawa,logout,success,sso-01,
+2026-06-14T16:16:18Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-12T06:01:25Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T00:27:00Z,198.51.100.86,ldelacroix,login,success,auth-01,Login accepted
+2026-06-08T21:14:45Z,198.51.100.142,habara,login,failure,auth-01,Invalid password
+2026-06-12T11:58:23Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-13T21:23:31Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T06:03:40Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T15:03:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-10T14:42:40Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-10T23:05:54Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-09T00:38:52Z,198.51.100.141,dgrigoryan,login,failure,auth-01,Invalid password
+2026-06-13T00:01:00Z,198.51.100.51,kespinoza,login,failure,auth-01,Invalid password
+2026-06-09T00:07:30Z,198.51.100.27,spellegrini,login,failure,auth-01,Invalid password
+2026-06-14T13:55:26Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-14T22:47:13Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-10T18:07:48Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-14T18:57:26Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-11T07:08:22Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-13T14:59:06Z,198.51.100.140,gforsberg,logout,success,sso-01,
+2026-06-08T06:00:00Z,198.51.100.11,ixiong,login,failure,auth-01,Invalid password
+2026-06-11T21:40:02Z,198.51.100.140,gforsberg,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T08:48:43Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-14T12:42:20Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-08T16:26:53Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-11T10:22:18Z,198.51.100.147,fespinoza,logout,success,sso-01,
+2026-06-13T08:09:47Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-08T10:29:24Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-08T17:31:15Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-09T15:03:00Z,198.51.100.36,pnakagawa,login,failure,auth-01,Invalid password
+2026-06-09T22:32:15Z,198.51.100.143,tulloa,login,failure,auth-01,Invalid password
+2026-06-10T17:02:52Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-11T12:20:28Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-14T20:01:40Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-09T03:10:00Z,198.51.100.29,hgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T16:33:20Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T06:00:50Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T18:51:36Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-14T12:05:59Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-12T11:06:10Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-10T18:55:29Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-13T14:33:18Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-13T15:42:13Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-12T06:00:45Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T14:12:33Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-12T17:54:16Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-08T21:00:00Z,198.51.100.20,nfontaine,login,failure,auth-01,Invalid password
+2026-06-09T12:01:33Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-10T07:19:40Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-08T12:00:40Z,198.51.100.17,rfontaine,login,failure,auth-01,Invalid password
+2026-06-11T21:39:31Z,198.51.100.140,gforsberg,login,failure,auth-01,Invalid password
+2026-06-09T07:04:14Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-10T16:15:42Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-08T09:38:05Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-09T14:17:39Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-12T03:02:18Z,198.51.100.75,wulloa,login,success,auth-01,Login accepted
+2026-06-11T15:36:22Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-11T09:59:45Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-12T06:01:20Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T16:05:39Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-08T13:18:28Z,198.51.100.142,habara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T17:41:58Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T13:22:04Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-13T09:09:00Z,198.51.100.125,bforsberg,login,failure,auth-01,Invalid password
+2026-06-08T15:10:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T07:34:35Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-11T09:42:50Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-08T12:03:20Z,198.51.100.17,fkowalczyk,login,failure,auth-01,Invalid password
+2026-06-13T03:02:00Z,198.51.100.87,awojcik,login,failure,auth-01,Invalid password
+2026-06-13T02:22:53Z,198.51.100.137,cbergstrom,login,failure,auth-01,Invalid password
+2026-06-13T08:59:34Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-11T07:22:01Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-13T11:11:39Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-12T06:04:50Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T16:49:51Z,198.51.100.138,ipellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T19:19:05Z,198.51.100.146,tandrade,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T09:03:00Z,198.51.100.62,jrasmussen,login,failure,auth-01,Invalid password
+2026-06-13T07:00:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T15:00:00Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-09T09:02:00Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T03:00:00Z,198.51.100.29,hgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T17:50:52Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-10T08:21:46Z,198.51.100.137,bcastellano,logout,success,sso-01,
+2026-06-08T06:15:10Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T07:02:37Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-08T07:33:26Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-10T11:03:06Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-12T21:02:40Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-13T15:27:26Z,198.51.100.140,gforsberg,logout,success,sso-01,
+2026-06-13T18:44:33Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-11T10:36:49Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-08T09:05:42Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-09T12:01:20Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-11T11:05:15Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T21:10:01Z,198.51.100.71,apellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T13:02:57Z,198.51.100.145,cabara,logout,success,sso-01,
+2026-06-10T15:57:29Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-11T18:53:24Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-10T20:23:22Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-10T19:02:50Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-12T11:20:00Z,198.51.100.77,mgrigoryan,login,failure,auth-01,Invalid password
+2026-06-11T21:01:00Z,198.51.100.71,tdelacroix,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T08:15:33Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-08T09:17:37Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-13T22:11:24Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-10T13:43:31Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-12T03:00:54Z,198.51.100.75,kvarga,login,success,auth-01,Login accepted
+2026-06-08T18:51:25Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-08T15:12:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-09T00:04:00Z,198.51.100.24,spellegrini,login,failure,auth-01,Invalid password
+2026-06-08T17:09:21Z,198.51.100.142,habara,login,failure,auth-01,Invalid password
+2026-06-14T15:18:31Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-11T00:26:52Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-09T13:23:39Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-09T18:55:39Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-10T08:40:05Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-13T11:09:10Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-08T22:59:48Z,198.51.100.136,fbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T01:10:42Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-14T20:44:02Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-08T18:42:44Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-09T00:05:00Z,198.51.100.26,spellegrini,login,failure,auth-01,Invalid password
+2026-06-09T16:21:23Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-12T02:06:51Z,198.51.100.137,bcastellano,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T14:17:37Z,198.51.100.138,ipellegrini,login,failure,auth-01,Invalid password
+2026-06-14T10:10:15Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-14T16:39:46Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-08T04:28:05Z,198.51.100.142,habara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T06:00:55Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T07:53:20Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-09T06:05:42Z,198.51.100.143,tulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T08:38:10Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-11T11:02:41Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-08T21:03:00Z,198.51.100.20,nfontaine,login,failure,auth-01,Invalid password
+2026-06-09T14:00:17Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-14T07:44:50Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-09T18:25:45Z,198.51.100.137,bcastellano,login,failure,auth-01,Invalid password
+2026-06-14T07:38:25Z,198.51.100.136,lfontaine,logout,success,sso-01,
+2026-06-12T07:30:19Z,198.51.100.145,efontaine,logout,success,sso-01,
+2026-06-10T13:43:22Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-11T11:16:11Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-12T18:44:07Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-10T11:41:35Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-13T12:11:21Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-12T10:15:37Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-09T08:41:07Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-13T23:10:51Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T06:51:42Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-12T16:05:54Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-11T06:04:00Z,198.51.100.60,wpellegrini,login,success,auth-01,Login accepted
+2026-06-09T01:18:27Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-10T08:06:38Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-08T09:22:17Z,198.51.100.146,despinoza,logout,success,sso-01,
+2026-06-14T15:33:44Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-09T00:07:00Z,198.51.100.26,spellegrini,login,failure,auth-01,Invalid password
+2026-06-13T16:56:47Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T17:23:53Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-13T06:48:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-13T15:18:53Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-10T09:49:25Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-12T15:24:04Z,198.51.100.137,bcastellano,login,failure,auth-01,Invalid password
+2026-06-09T17:41:59Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-10T17:45:49Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-11T15:57:33Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-09T09:30:35Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-09T11:17:32Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-10T23:37:48Z,198.51.100.141,ddvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T20:28:44Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T15:12:13Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-08T06:02:24Z,198.51.100.11,ixiong,login,failure,auth-01,Invalid password
+2026-06-13T18:30:43Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-13T01:39:27Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-08T14:47:42Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-11T18:14:10Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-13T12:33:51Z,198.51.100.137,bcastellano,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T18:53:42Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-10T12:00:00.600Z,198.51.100.48,pdvorak,login,failure,auth-01,Invalid password
+2026-06-13T07:06:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T17:08:48Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-09T11:20:32Z,198.51.100.145,cabara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T17:57:47Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-12T00:17:59Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T10:00:00Z,198.51.100.77,nyilmaz,login,failure,auth-01,Invalid password
+2026-06-11T14:08:21Z,198.51.100.140,clindqvist,logout,success,sso-01,
+2026-06-12T01:14:38Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T10:52:45Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-08T06:01:48Z,198.51.100.11,ixiong,login,failure,auth-01,Invalid password
+2026-06-12T12:52:00Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-11T00:01:00Z,198.51.100.53,gcardoso,login,failure,auth-01,Invalid password
+2026-06-14T09:42:52Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T06:41:57Z,198.51.100.140,gforsberg,login,failure,auth-01,Invalid password
+2026-06-10T18:01:29Z,198.51.100.147,fespinoza,logout,success,sso-01,
+2026-06-12T08:16:00Z,198.51.100.137,cbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T10:11:00Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-09T09:22:48Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-09T08:08:04Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-10T15:00:01Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-14T10:38:43Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-11T03:08:44Z,198.51.100.142,habara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T06:06:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-13T11:40:28Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-12T06:01:40Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T08:21:51Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-11T15:02:45Z,198.51.100.145,cabara,logout,success,sso-01,
+2026-06-13T09:01:36Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-10T20:05:49Z,198.51.100.142,habara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T11:50:17Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-09T07:09:55Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-09T09:06:00Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T07:39:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-09T00:01:00Z,198.51.100.26,spellegrini,login,failure,auth-01,Invalid password
+2026-06-11T13:05:46Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-11T15:45:28Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-11T09:30:53Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-12T20:53:17Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-08T15:24:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T09:08:00Z,198.51.100.121,lpellegrini,login,failure,auth-01,Invalid password
+2026-06-09T02:00:33Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-11T12:01:20Z,198.51.100.64,aforsberg,login,failure,auth-01,Invalid password
+2026-06-08T15:06:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T07:15:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T16:47:26Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-11T07:40:44Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-12T21:02:00Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-12T06:02:40Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T13:09:46Z,198.51.100.136,lfontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T19:28:24Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T07:01:43Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-12T14:07:06Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-11T13:50:13Z,198.51.100.142,mulloa,logout,success,sso-01,
+2026-06-09T13:59:46Z,198.51.100.143,tulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T09:06:45Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-09T20:26:29Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-14T23:51:26Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T14:11:54Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-13T00:00:00Z,198.51.100.51,kespinoza,login,failure,auth-01,Invalid password
+2026-06-13T07:42:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-13T17:45:06Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-13T08:47:42Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-13T09:04:00Z,198.51.100.105,vgrigoryan,login,failure,auth-01,Invalid password
+2026-06-11T06:02:00Z,198.51.100.58,wpellegrini,login,failure,auth-01,Invalid password
+2026-06-09T10:41:25Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-08T18:00:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-10T07:39:10Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T04:00:49Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T14:54:29Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-13T09:03:30Z,198.51.100.103,wzielinski,login,failure,auth-01,Invalid password
+2026-06-14T07:24:38Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-12T06:01:45Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T14:55:26Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-11T12:48:28Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T11:42:30Z,198.51.100.145,cabara,logout,success,sso-01,
+2026-06-09T06:05:50Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-10T12:00:00.200Z,198.51.100.48,dforsberg,login,failure,auth-01,Invalid password
+2026-06-09T16:15:26Z,198.51.100.140,gforsberg,logout,success,sso-01,
+2026-06-09T09:06:40Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T03:02:36Z,198.51.100.75,rxiong,login,success,auth-01,Login accepted
+2026-06-13T08:21:43Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-14T09:43:58Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-08T17:40:27Z,198.51.100.145,cabara,logout,success,sso-01,
+2026-06-11T13:01:35Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-13T17:21:17Z,198.51.100.142,mulloa,login,failure,auth-01,Invalid password
+2026-06-13T09:01:45Z,198.51.100.96,sfontaine,login,failure,auth-01,Invalid password
+2026-06-08T15:52:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T06:32:19Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T20:46:59Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-12T09:40:00Z,198.51.100.77,ceriksen,login,failure,auth-01,Invalid password
+2026-06-14T02:39:11Z,198.51.100.139,wwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T23:54:15Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-09T07:39:40Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-10T22:43:27Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T16:49:09Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-12T03:00:42Z,198.51.100.75,vtakahashi,login,success,auth-01,Login accepted
+2026-06-13T15:29:06Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-10T15:00:00Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-13T09:52:41Z,198.51.100.140,gforsberg,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T03:01:00Z,198.51.100.75,obergstrom,login,success,auth-01,Login accepted
+2026-06-09T08:26:39Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-12T13:37:07Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-12T09:08:28Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-13T12:40:35Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-14T09:40:56Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-12T06:03:20Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T23:17:35Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T13:52:43Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-10T17:46:51Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-13T11:40:06Z,198.51.100.144,rcardoso,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T09:05:30Z,198.51.100.111,stakahashi,login,failure,auth-01,Invalid password
+2026-06-12T06:00:35Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T12:51:37Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-08T18:34:25Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-14T15:58:14Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-10T17:40:30Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-08T15:34:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T09:22:45Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-13T06:23:03Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T08:04:06Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-12T03:02:00Z,198.51.100.75,vulloa,login,success,auth-01,Login accepted
+2026-06-11T00:19:00Z,198.51.100.54,gcardoso,login,success,auth-01,Login accepted
+2026-06-11T15:29:17Z,198.51.100.138,jokafor,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T08:44:14Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-09T09:00:40Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T14:52:47Z,198.51.100.142,mulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T11:19:29Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-09T11:07:02Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-13T10:34:34Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-11T10:00:24Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-11T15:00:00Z,198.51.100.65,bsandoval,login,failure,auth-01,Invalid password
+2026-06-12T11:47:24Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-09T19:46:41Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-09T21:02:00Z,198.51.100.38,agrigoryan,login,failure,auth-01,Invalid password
+2026-06-12T00:01:00Z,198.51.100.73,alindqvist,login,failure,auth-01,Invalid password
+2026-06-11T08:04:29Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-12T09:00:00Z,198.51.100.77,respinoza,login,failure,auth-01,Invalid password
+2026-06-10T18:58:17Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-14T07:06:35Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T10:04:09Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-10T06:47:21Z,198.51.100.138,gdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T04:51:29Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T07:09:21Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-12T12:00:20Z,198.51.100.78,eespinoza,login,failure,auth-01,Invalid password
+2026-06-08T21:04:00Z,198.51.100.21,nfontaine,login,failure,auth-01,Invalid password
+2026-06-12T08:44:06Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-12T07:08:49Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-13T09:00:45Z,198.51.100.92,syilmaz,login,failure,auth-01,Invalid password
+2026-06-10T08:54:45Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-12T08:37:46Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-12T10:40:00Z,198.51.100.77,rokafor,login,failure,auth-01,Invalid password
+2026-06-08T17:18:15Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-08T17:14:10Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-09T13:53:17Z,198.51.100.140,snakagawa,logout,success,sso-01,
+2026-06-12T08:46:22Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-13T16:38:43Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-11T18:59:18Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T07:15:46Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-10T06:02:26Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-12T03:01:30Z,198.51.100.75,pwojcik,login,success,auth-01,Login accepted
+2026-06-14T16:26:06Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-12T11:19:59Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-10T01:06:00+13:00,198.51.100.32,lmoreau,login,failure,auth-01,Invalid password
+2026-06-08T15:47:15Z,198.51.100.140,gforsberg,login,failure,auth-01,Invalid password
+2026-06-10T08:00:24Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-13T09:06:45Z,198.51.100.116,mnakagawa,login,failure,auth-01,Invalid password
+2026-06-10T12:12:48Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-10T03:57:39Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-12T06:02:35Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T21:06:33Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-13T00:12:00Z,198.51.100.86,ldelacroix,login,failure,auth-01,Invalid password
+2026-06-09T09:54:15Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-08T12:13:17Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-11T22:21:51Z,198.51.100.138,jokafor,login,failure,auth-01,Invalid password
+2026-06-12T15:42:28Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-12T16:46:07Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-12T20:14:32Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-14T15:33:54Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-12T13:52:24Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-08T07:54:21Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-12T03:02:48Z,198.51.100.75,dmoreau,login,success,auth-01,Login accepted
+2026-06-09T03:23:09Z,198.51.100.146,tandrade,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T05:26:01Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-10T00:35:32Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-08T15:28:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-14T14:33:40Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-14T18:48:17Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-08T17:55:11Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-09T17:10:30Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-08T16:24:40Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-09T10:38:00Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-14T16:08:48Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-11T14:09:08Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-12T17:02:11Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-10T07:35:28Z,198.51.100.139,jxiong,logout,success,sso-01,
+2026-06-09T00:02:30Z,198.51.100.25,spellegrini,login,failure,auth-01,Invalid password
+2026-06-08T19:26:34Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T23:17:43Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-12T03:02:24Z,198.51.100.75,ayilmaz,login,success,auth-01,Login accepted
+2026-06-12T21:04:40Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-13T18:40:23Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-12T06:04:00Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T03:02:00Z,198.51.100.55,kokafor,login,failure,auth-01,Invalid password
+2026-06-08T10:52:48Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-09T18:06:23Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-10T22:24:00Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-13T06:39:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T06:03:35Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T12:06:48Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-12T16:13:10Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T13:32:26Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-14T11:26:09Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-12T15:46:09Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-13T16:10:34Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-11T14:06:16Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-11T16:10:11Z,198.51.100.139,jxiong,login,failure,auth-01,Invalid password
+2026-06-11T08:39:51Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-09T15:48:39Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-09T21:48:47Z,198.51.100.138,jokafor,login,failure,auth-01,Invalid password
+2026-06-12T21:03:40Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-09T18:04:38Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-08T18:43:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-11T16:37:38Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-13T08:21:58Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-12T06:02:05Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T08:56:05Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-12T06:01:30Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T00:04:00Z,198.51.100.74,alindqvist,login,success,auth-01,Login accepted
+2026-06-10T03:01:00Z,198.51.100.41,wgrigoryan,login,failure,auth-01,Invalid password
+2026-06-14T13:40:05Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-10T11:44:14Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-08T02:47:13Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-13T10:56:15Z,198.51.100.141,nvarga,logout,success,sso-01,
+2026-06-11T14:12:50Z,198.51.100.139,jxiong,logout,success,sso-01,
+2026-06-10T23:48:44Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-10T09:09:42Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-11T11:14:29Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-09T08:07:56Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-10T12:35:53Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-09T21:00:00Z,198.51.100.38,pxiong,login,failure,auth-01,Invalid password
+2026-06-13T07:09:43Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-13T12:02:15Z,198.51.100.132,corp\pforsberg,login,failure,auth-01,Invalid password
+2026-06-11T14:06:32Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-11T19:52:47Z,198.51.100.138,gdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T17:59:38Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-12T06:02:25Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T15:16:03Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-12T11:03:03Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-12T13:33:25Z,198.51.100.141,ddvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T21:02:10Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-11T18:00:00Z,198.51.100.66,nzielinski,login,failure,auth-01,Invalid password
+2026-06-10T12:05:31Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T13:52:11Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-11T15:29:05Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-08T13:42:35Z,198.51.100.141,dgrigoryan,login,failure,auth-01,Invalid password
+2026-06-12T06:00:05Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-14T09:47:39Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-09T14:17:14Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-09T12:58:19Z,198.51.100.139,jxiong,login,failure,auth-01,Invalid password
+2026-06-11T07:43:53Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-13T09:04:15Z,198.51.100.106,dokafor,login,failure,auth-01,Invalid password
+2026-06-10T15:29:08Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-13T17:06:56Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-14T17:07:04Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-12T12:42:04Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-13T15:03:58Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-14T14:44:23Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-13T18:06:33Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-14T08:38:13Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-10T10:58:39Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-10T16:15:05Z,198.51.100.143,tulloa,login,failure,auth-01,Invalid password
+2026-06-09T09:05:20Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T00:06:30Z,198.51.100.25,spellegrini,login,failure,auth-01,Invalid password
+2026-06-10T10:30:03Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-14T09:47:11Z,198.51.100.141,ddvorak,login,success,sso-01,
+2026-06-13T06:51:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-08T12:06:00Z,198.51.100.17,heriksen,login,failure,auth-01,Invalid password
+2026-06-12T09:51:05Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-14T08:43:46Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-10T07:57:19Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-10T12:00:00.800Z,198.51.100.48,aulloa,login,failure,auth-01,Invalid password
+2026-06-09T23:43:48Z,198.51.100.137,cbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T09:54:46Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-12T07:41:58Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-14T14:35:41Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-09T15:44:12Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-13T14:27:53Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-10T14:36:35Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-14T14:50:23Z,198.51.100.137,bcastellano,logout,success,sso-01,
+2026-06-08T10:46:46Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-12T03:02:06Z,198.51.100.75,pvarga,login,success,auth-01,Login accepted
+2026-06-11T01:51:56Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-09T14:59:26Z,198.51.100.139,jxiong,login,failure,auth-01,Invalid password
+2026-06-14T10:29:55Z,198.51.100.143,tulloa,login,failure,auth-01,Invalid password
+2026-06-14T07:54:13Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-11T07:45:45Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-10T03:00:00Z,198.51.100.40,wgrigoryan,login,failure,auth-01,Invalid password
+2026-06-14T11:24:00Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-10T10:22:32Z,198.51.100.138,ipellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T12:48:08Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-13T21:29:13Z,198.51.100.141,dgrigoryan,login,failure,auth-01,Invalid password
+2026-06-13T09:52:52Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-10T09:29:47Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T18:39:10Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-12T15:05:50Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-10T18:00:48Z,198.51.100.50,anakagawa,login,denied,auth-01,Account locked
+2026-06-08T09:55:05Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-09T18:04:00Z,2001:db8:e1::17,jgrigoryan,login,failure,auth-01,Invalid password
+2026-06-09T21:01:00Z,198.51.100.38,gxiong,login,failure,auth-01,Invalid password
+2026-06-13T18:34:03Z,198.51.100.137,kdvorak,logout,success,sso-01,
+2026-06-12T09:44:42Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-11T09:17:02Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-14T14:20:35Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-14T16:22:47Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-12T18:58:38Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-08T15:40:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T23:58:00Z,198.51.100.51,kespinoza,login,failure,auth-01,Invalid password
+2026-06-14T16:51:15Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-11T17:14:10Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T18:41:46Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-12T14:42:10Z,198.51.100.141,nvarga,login,failure,auth-01,Invalid password
+2026-06-08T10:39:54Z,198.51.100.137,kdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T03:00:00Z,198.51.100.10,edelacroix,login,failure,auth-01,Invalid password
+2026-06-09T15:47:15Z,198.51.100.139,wwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T12:57:46Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-14T15:04:55Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T10:27:51Z,198.51.100.140,clindqvist,logout,success,sso-01,
+2026-06-13T09:06:15Z,198.51.100.114,rquintero,login,failure,auth-01,Invalid password
+2026-06-08T17:52:51Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-12T21:01:30Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-11T18:32:07Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-12T14:01:49Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-09T05:11:49Z,198.51.100.136,vwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T16:40:59Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-13T12:42:53Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-09T18:27:26Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T18:03:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-12T17:11:01Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-09T17:20:11Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-11T21:06:40Z,198.51.100.71,apellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T10:27:53Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-08T03:28:07Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-12T12:33:34Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-12T03:01:54Z,198.51.100.75,nkowalczyk,login,success,auth-01,Login accepted
+2026-06-14T15:03:43Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-10T09:58:33Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-08T15:02:24Z,198.51.100.143,tulloa,login,failure,auth-01,Invalid password
+2026-06-12T08:53:59Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-09T09:12:18Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-12T23:57:00Z,198.51.100.51,kespinoza,login,failure,auth-01,Invalid password
+2026-06-11T15:18:08Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-09T07:39:13Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-10T05:22:45Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-13T15:59:40Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-13T15:03:00Z,198.51.100.135,idvorak,login,failure,auth-01,Invalid password
+2026-06-10T04:10:39Z,198.51.100.143,tulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T11:31:46Z,198.51.100.137,kdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T00:21:00Z,198.51.100.86,ldelacroix,login,success,auth-01,Login accepted
+2026-06-13T10:51:31Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-12T15:16:42Z,198.51.100.139,jxiong,logout,success,sso-01,
+2026-06-12T15:21:49Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-13T16:04:28Z,198.51.100.140,clindqvist,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T14:49:43Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-12T21:03:30Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-12T03:47:00Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-13T09:05:00Z,198.51.100.109,tyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T13:12:22Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-08T08:50:57Z,198.51.100.145,cabara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T17:27:12Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-12T06:04:55Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T02:30:32Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-12T06:04:10Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T13:01:40Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-08T16:53:14Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-12T03:01:42Z,198.51.100.75,aespinoza,login,success,auth-01,Login accepted
+2026-06-12T21:00:40Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-14T17:27:38Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-12T12:34:21Z,198.51.100.143,tulloa,logout,success,sso-01,
+2026-06-08T14:15:46Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-09T18:07:55Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-11T11:10:42Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-09T12:07:52Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-12T18:02:30Z,198.51.100.84,pmoreau,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T18:56:47Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-11T14:43:49Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-09T12:13:03Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T15:14:28Z,198.51.100.140,snakagawa,logout,success,sso-01,
+2026-06-10T11:34:25Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-09T18:43:07Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-09T02:33:41Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T15:51:42Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-08T03:02:30Z,198.51.100.10,bvarga,login,failure,auth-01,Invalid password
+2026-06-12T18:49:26Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-13T09:22:04Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-10T03:04:00Z,198.51.100.40,wgrigoryan,login,failure,auth-01,Invalid password
+2026-06-13T16:08:36Z,198.51.100.147,fespinoza,logout,success,sso-01,
+2026-06-14T07:22:07Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-10T10:00:33Z,198.51.100.138,ipellegrini,logout,success,sso-01,
+2026-06-13T01:56:26Z,198.51.100.142,mulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T09:09:14Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-08T12:08:00Z,198.51.100.17,fcardoso,login,failure,auth-01,Invalid password
+2026-06-08T17:42:29Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-11T07:55:32Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-09T00:48:40Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T15:22:33Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T17:34:14Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-12T23:38:42Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-11T02:13:13Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T09:04:00Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T13:09:27Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-10T09:23:06Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-08T09:00:00Z,198.51.100.12,evarga,login,failure,auth-01,Invalid password
+2026-06-09T12:15:00Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-14T23:25:27Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-08T11:40:35Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-14T15:35:54Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-13T06:09:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T06:01:35Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T08:39:47Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-10T18:55:19Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-09T06:00:00Z,198.51.100.30,vjovanovic,password_change,denied,auth-01,Password change refused by policy
+2026-06-12T09:11:20Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-11T09:04:00Z,198.51.100.61,jrasmussen,login,failure,auth-01,Invalid password
+2026-06-13T12:54:22Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-11T00:29:24Z,198.51.100.137,bcastellano,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T15:24:14Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-10T11:05:08Z,198.51.100.140,snakagawa,logout,success,sso-01,
+2026-06-13T13:29:21Z,198.51.100.137,cbergstrom,logout,success,sso-01,
+2026-06-14T23:00:23Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T11:58:34Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-13T06:33:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-14T13:28:05Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-10T15:50:17Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-13T07:57:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-08T16:02:40Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-14T15:16:29Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-10T11:02:27Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-12T07:56:27Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-10T03:06:00Z,198.51.100.42,wgrigoryan,login,success,auth-01,Login accepted
+2026-06-12T10:19:46Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-10T18:03:12Z,198.51.100.50,anakagawa,login,denied,auth-01,Account locked
+2026-06-13T07:12:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T15:00:01Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-11T11:53:45Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-12T11:30:01Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-14T07:04:56Z,198.51.100.137,kdvorak,logout,success,sso-01,
+2026-06-10T08:48:07Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-11T23:43:50Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-12T06:04:20Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T06:04:00Z,198.51.100.58,wpellegrini,login,failure,auth-01,Invalid password
+2026-06-12T13:19:45Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-08T15:25:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T00:59:01Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-11T08:38:18Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-14T06:21:48Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-13T10:28:34Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-10T16:50:36Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-14T17:18:02Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-11T07:32:43Z,198.51.100.136,fbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T09:25:55Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-14T16:14:44Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-12T22:14:08Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-11T07:15:48Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-09T12:26:52Z,198.51.100.138,ipellegrini,logout,success,sso-01,
+2026-06-12T11:13:04Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-08T18:41:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-13T15:01:00Z,198.51.100.135,vcardoso,login,failure,auth-01,Invalid password
+2026-06-14T10:37:15Z,198.51.100.139,gkowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T09:28:58Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-09T07:51:12Z,198.51.100.136,lfontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T07:12:10Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-08T07:36:38Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-14T09:03:48Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-08T08:54:10Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-14T17:41:08Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-08T13:26:15Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-14T18:38:57Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-08T15:28:45Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-13T06:57:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-11T01:20:00Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T07:46:49Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-13T18:40:31Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-10T18:27:15Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-14T14:52:13Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-09T11:44:56Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-09T09:00:00Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T11:52:05Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-14T04:26:18Z,198.51.100.137,cbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T09:32:52Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-08T21:05:00Z,198.51.100.22,nfontaine,login,failure,auth-01,Invalid password
+2026-06-13T15:13:10Z,198.51.100.136,fbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T14:32:54Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-12T18:55:35Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-13T08:15:20Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-12T12:59:15Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-08T15:57:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-10T10:34:00Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-08T02:04:05Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-08T10:02:15Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-12T12:00:15Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-11T16:11:02Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-08T15:48:35Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-12T10:56:30Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-13T18:25:33Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-09T00:05:30Z,198.51.100.27,spellegrini,login,failure,auth-01,Invalid password
+2026-06-13T15:11:35Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-14T09:27:25Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-08T12:24:44Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T21:14:33Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T09:02:00Z,198.51.100.61,jrasmussen,login,failure,auth-01,Invalid password
+2026-06-08T18:44:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-12T01:43:49Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-14T07:02:04Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-13T09:07:15Z,198.51.100.118,onakagawa,login,failure,auth-01,Invalid password
+2026-06-13T07:27:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-14T18:08:42Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-08T16:47:09Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-10T16:59:40Z,198.51.100.141,nvarga,logout,success,sso-01,
+2026-06-10T14:40:31Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-12T06:04:40Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T15:33:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-08T18:02:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-11T11:25:23Z,198.51.100.139,wwojcik,login,failure,auth-01,Invalid password
+2026-06-09T18:50:40Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-12T15:57:37Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-13T09:07:45Z,198.51.100.120,pkowalczyk,login,failure,auth-01,Invalid password
+2026-06-09T22:52:36Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T22:17:03Z,198.51.100.136,vwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T20:38:59Z,198.51.100.139,wwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T11:18:31Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-12T15:04:00Z,198.51.100.83,pulloa,login,failure,auth-01,Invalid password
+2026-06-09T19:03:53Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-12T11:46:47Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-12T13:29:03Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-08T10:38:07Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-08T07:56:10Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-11T09:39:40Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-10T11:20:38Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-12T09:53:50Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-12T17:07:41Z,198.51.100.137,cbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T06:04:15Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T18:49:00Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-12T15:35:01Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-08T15:09:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-14T18:34:31Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T16:41:02Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-10T12:38:05Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-11T13:06:06Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-12T14:12:42Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-12T06:02:55Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T10:46:18Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-09T13:23:49Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-10T08:30:12Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-09T08:21:45Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-08T17:41:09Z,198.51.100.144,rcardoso,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T06:38:26Z,198.51.100.146,tandrade,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T15:03:00Z,198.51.100.82,sandrade,login,failure,auth-01,Invalid password
+2026-06-10T17:26:58Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-09T13:21:04Z,198.51.100.145,efontaine,logout,success,sso-01,
+2026-06-08T09:43:26Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-11T11:59:39Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T03:01:24Z,198.51.100.75,kwojcik,login,success,auth-01,Login accepted
+2026-06-14T02:57:08Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-14T15:06:10Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-14T07:11:06Z,198.51.100.137,bcastellano,login,success,sso-01,
+2026-06-14T07:56:46Z,198.51.100.138,ipellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T21:03:00Z,::ffff:198.51.100.38,ilindqvist,login,failure,auth-01,Invalid password
+2026-06-12T06:00:10Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T16:28:02Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-12T04:30:51Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-08T15:47:14Z,198.51.100.146,tandrade,login,success,sso-01,
+2026-06-11T00:00:00Z,198.51.100.52,gcardoso,login,failure,auth-01,Invalid password
+2026-06-13T16:09:07Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-13T07:46:58Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-10T13:37:28Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-10T03:16:57Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-10T03:03:00Z,198.51.100.41,wgrigoryan,login,failure,auth-01,Invalid password
+2026-06-12T11:22:25Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-12T11:51:56Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-13T11:15:07Z,198.51.100.145,cabara,logout,success,sso-01,
+2026-06-11T08:27:39Z,198.51.100.140,snakagawa,logout,success,sso-01,
+2026-06-08T15:39:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T18:17:34Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-12T18:37:52Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-12T21:04:00Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-14T14:49:07Z,198.51.100.137,bcastellano,logout,success,sso-01,
+2026-06-10T06:05:00Z,198.51.100.46,weriksen,login,success,auth-01,Login accepted
+2026-06-08T01:48:50Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T18:03:46Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-10T06:06:00Z,198.51.100.45,weriksen,login,failure,auth-01,Invalid password
+2026-06-14T12:26:14Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-08T14:09:19Z,198.51.100.142,mulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T14:09:08Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-14T10:36:09Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-10T06:09:00Z,198.51.100.45,weriksen,login,failure,auth-01,Invalid password
+2026-06-08T13:24:37Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-14T00:55:58Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-08T08:17:05Z,198.51.100.140,gforsberg,logout,success,sso-01,
+2026-06-08T16:45:40Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-08T08:33:24Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-08T12:57:53Z,198.51.100.142,mulloa,logout,success,sso-01,
+2026-06-11T07:43:39Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-12T05:35:48Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T16:11:45Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-11T23:03:50Z,198.51.100.139,jxiong,login,failure,auth-01,Invalid password
+2026-06-11T17:10:58Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-13T12:17:48Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-10T00:00:00Z,198.51.100.39,gandrade,login,failure,auth-01,Invalid password (attempt 5)
+2026-06-10T18:50:21Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-14T10:11:11Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-09T11:53:48Z,198.51.100.137,bcastellano,logout,success,sso-01,
+2026-06-14T09:11:41Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-11T12:00:04Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-12T06:03:00Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T15:03:39Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-08T12:01:20Z,198.51.100.17,jkowalczyk,login,failure,auth-01,Invalid password
+2026-06-08T11:54:19Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-09T06:02:15Z,198.51.100.30,vjovanovic,password_change,denied,auth-01,Password change refused by policy
+2026-06-14T11:51:44Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-11T08:07:59Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-08T13:46:31Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-14T13:18:15Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-08T16:15:52Z,198.51.100.136,lfontaine,logout,success,sso-01,
+2026-06-08T15:40:56Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-09T21:57:07Z,198.51.100.140,clindqvist,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T13:12:40Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-08T13:22:18Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-08T15:20:07Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-14T11:51:37Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-13T12:53:55Z,198.51.100.136,lfontaine,logout,success,sso-01,
+2026-06-12T03:53:40Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T15:16:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T11:00:23Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-13T06:36:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T06:03:15Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T21:01:00Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-13T17:36:50Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-11T16:21:50Z,198.51.100.145,cabara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T12:49:05Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-12T19:44:28Z,198.51.100.136,lfontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T05:27:59Z,198.51.100.143,tulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T16:59:42Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-11T21:00:00Z,198.51.100.71,tdelacroix,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T23:53:35Z,198.51.100.142,habara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T15:26:00Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-14T14:17:46Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-12T06:00:40Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T13:28:12Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-10T14:24:58Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-10T13:51:23Z,198.51.100.142,mulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T00:11:23Z,198.51.100.140,clindqvist,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T09:04:40Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T15:07:09Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-11T07:32:32Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-12T18:04:10Z,198.51.100.84,fjovanovic,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T13:41:41Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-11T05:54:48Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-12T06:02:45Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T00:57:13Z,198.51.100.138,gdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T15:10:01Z,198.51.100.65,jbrennan,login,failure,auth-01,Invalid password
+2026-06-09T04:46:46Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-13T09:02:00Z,198.51.100.97,vrasmussen,login,failure,auth-01,Invalid password
+2026-06-11T16:13:21Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-12T22:25:00Z,198.51.100.144,rcardoso,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T12:48:15Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-12T06:01:55Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T15:49:28Z,198.51.100.138,gdvorak,logout,success,sso-01,
+2026-06-10T06:02:00Z,198.51.100.45,weriksen,login,failure,auth-01,Invalid password
+2026-06-12T12:15:12Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-11T10:09:32Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-09T07:03:32Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-12T06:34:20Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-08T14:08:05Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-14T07:27:11Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-12T18:10:02Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-13T07:48:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-14T16:03:26Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-11T09:45:39Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-12T18:46:43Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-10T11:12:26Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T14:45:35Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-09T14:09:58Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-12T07:40:17Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-12T09:20:18Z,198.51.100.141,nvarga,logout,success,sso-01,
+2026-06-13T16:35:40Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-08T18:19:00Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-12T13:50:32Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-13T07:43:12Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-13T00:09:00Z,198.51.100.86,ldelacroix,login,success,auth-01,Login accepted
+2026-06-13T07:36:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T04:40:00Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-08T03:10:00Z,198.51.100.10,dibarra,login,failure,auth-01,Invalid password
+2026-06-10T11:43:16Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-12T10:50:30Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-09T08:05:19Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-14T07:45:00Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-10T02:22:16Z,198.51.100.136,lfontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T12:30:40Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-10T18:00:00Z,198.51.100.50,anakagawa,login,denied,auth-01,Account locked
+2026-06-12T11:10:56Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-08T10:59:53Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-09T15:04:00Z,198.51.100.37,Pnakagawa,login,failure,auth-01,Invalid password
+2026-06-13T07:33:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-14T15:01:23Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-08T09:06:00Z,198.51.100.16,evarga,login,failure,auth-01,Invalid password
+2026-06-09T18:01:00Z,2001:0DB8:00E1:0000:0000:0000:0000:0017,wabara,login,failure,auth-01,Invalid password
+2026-06-09T16:28:18Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-09T23:11:52Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-14T08:10:10Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-11T09:19:17Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T09:00:25Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-09T07:33:19Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-11T13:39:03Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-13T10:47:13Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-08T15:37:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-10T11:04:56Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-13T13:58:24Z,198.51.100.141,nvarga,login,failure,auth-01,Invalid password
+2026-06-13T13:03:49Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-12T13:46:27Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-14T09:04:01Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-11T16:51:57Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-10T10:49:23Z,198.51.100.142,mulloa,logout,success,sso-01,
+2026-06-13T14:25:21Z,198.51.100.143,sibarra,access,success,sso-01,
+2026-06-08T17:37:25Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-11T17:31:06Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-08T15:02:51Z,198.51.100.143,tulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T09:17:38Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-14T14:03:33Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-14T08:27:28Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-12T01:05:35Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-12T21:02:30Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-12T03:00:18Z,198.51.100.75,cibarra,login,success,auth-01,Login accepted
+2026-06-11T09:53:20Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-09T12:16:37Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-13T00:00:00Z,198.51.100.86,ldelacroix,login,failure,auth-01,Invalid password
+2026-06-11T07:52:06Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-11T20:59:06Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-13T18:41:52Z,198.51.100.144,rcardoso,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T17:27:57Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-09T09:22:14Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-09T14:11:29Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-08T17:44:23Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-08T15:58:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-08T12:13:38Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-08T15:30:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-08T12:34:55Z,198.51.100.138,ipellegrini,logout,success,sso-01,
+2026-06-08T16:08:38Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-09T09:01:20Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T02:24:23Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-12T03:01:06Z,198.51.100.75,kcardoso,login,success,auth-01,Login accepted
+2026-06-10T09:02:00,198.51.100.47,sespinoza,login,failure,auth-01,Invalid password
+2026-06-08T10:15:54Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-10T11:59:07Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-08T12:07:20Z,198.51.100.17,czielinski,login,failure,auth-01,Invalid password
+2026-06-11T10:09:52Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T17:08:49Z,198.51.100.138,ipellegrini,login,success,sso-01,
+2026-06-09T17:35:50Z,198.51.100.138,gdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T19:49:42Z,198.51.100.136,lfontaine,login,failure,auth-01,Invalid password
+2026-06-10T10:09:48Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-13T06:42:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-14T21:23:33Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-11T18:45:31Z,198.51.100.141,dgrigoryan,logout,success,sso-01,
+2026-06-12T03:02:54Z,198.51.100.75,jfontaine,login,success,auth-01,Login accepted
+2026-06-13T09:06:30Z,198.51.100.115,pespinoza,login,failure,auth-01,Invalid password
+2026-06-08T21:14:50Z,198.51.100.136,fbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T09:03:00,198.51.100.47,ecastellano,login,failure,auth-01,Invalid password
+2026-06-13T00:15:00Z,198.51.100.86,ldelacroix,login,success,auth-01,Login accepted
+2026-06-09T10:29:55Z,198.51.100.147,fespinoza,logout,success,sso-01,
+2026-06-08T09:04:26Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-10T15:31:04Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-11T18:24:05Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-10T12:00:00Z,198.51.100.48,rgrigoryan,login,failure,auth-01,Invalid password
+2026-06-13T10:43:23Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-12T12:43:57Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T09:34:06Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-11T16:51:35Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-12T08:46:17Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-13T07:48:02Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-08T11:51:15Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-13T09:04:30Z,198.51.100.107,hpellegrini,login,failure,auth-01,Invalid password
+2026-06-08T17:34:44Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-10T08:43:11Z,198.51.100.139,jxiong,login,failure,auth-01,Invalid password
+2026-06-10T11:38:26Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-13T18:05:56Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-08T12:46:30Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-13T07:21:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T09:00:00,198.51.100.47,ldvorak,login,failure,auth-01,Invalid password
+2026-06-11T13:20:47Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-12T06:03:10Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T03:02:12Z,198.51.100.75,bnakagawa,login,success,auth-01,Login accepted
+2026-06-10T16:59:35Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-14T22:08:45Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T10:37:05Z,198.51.100.141,nvarga,logout,success,sso-01,
+2026-06-12T06:04:05Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T03:00:00Z,198.51.100.55,kokafor,login,failure,auth-01,Invalid password
+2026-06-08T11:56:15Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-10T14:44:50Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T17:33:12Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-10T15:34:23Z,198.51.100.143,tulloa,login,failure,auth-01,Invalid password
+2026-06-08T10:52:20Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-09T15:25:46Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-13T11:53:21Z,198.51.100.138,ipellegrini,login,failure,auth-01,Invalid password
+2026-06-09T21:04:28Z,198.51.100.139,wwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T13:40:28Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-12T07:32:19Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-13T12:16:14Z,198.51.100.141,ddvorak,logout,success,sso-01,
+2026-06-13T11:46:21Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-13T09:08:45Z,198.51.100.124,pbrennan,login,failure,auth-01,Invalid password
+2026-06-09T09:03:20Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T09:39:13Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-09T17:39:28Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-12T09:28:23Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-08T15:04:21Z,198.51.100.141,nvarga,login,success,sso-01,
+2026-06-10T00:00:00Z,198.51.100.39,gandrade,login,failure,auth-01,Invalid password (attempt 4)
+2026-06-08T17:49:19Z,198.51.100.137,bcastellano,logout,success,sso-01,
+2026-06-09T08:44:19Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T10:29:07Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-09T13:09:43Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-10T18:19:51Z,198.51.100.138,ipellegrini,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T10:46:00Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-14T09:04:29Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-08T09:01:30Z,198.51.100.13,evarga,login,failure,auth-01,Invalid password
+2026-06-08T06:01:12Z,198.51.100.11,ixiong,login,failure,auth-01,Invalid password
+2026-06-09T09:07:20Z,198.51.100.31,jvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T15:36:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T21:00:10Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-14T08:44:04Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-12T21:00:00Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-10T13:30:35Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-08T15:27:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T14:59:34Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-09T09:37:27Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-11T16:10:43Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-10T15:39:05Z,198.51.100.140,clindqvist,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T13:03:19Z,198.51.100.142,habara,login,failure,auth-01,Invalid password
+2026-06-09T13:45:51Z,198.51.100.139,wwojcik,login,success,sso-01,
+2026-06-11T15:51:36Z,198.51.100.137,kdvorak,logout,success,sso-01,
+2026-06-09T08:26:34Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-13T03:44:52Z,198.51.100.140,gforsberg,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T21:03:00Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-10T09:50:06Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-13T07:54:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-13T07:38:00Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-09T00:03:00Z,198.51.100.26,spellegrini,login,failure,auth-01,Invalid password
+2026-06-08T22:35:25Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-14T10:18:56Z,198.51.100.138,jokafor,access,success,sso-01,
+2026-06-13T12:55:14Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-12T18:33:24Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-13T09:00:00Z,198.51.100.89,nquintero,login,failure,auth-01,Invalid password
+2026-06-14T10:49:45Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-14T08:33:11Z,198.51.100.144,obrennan,logout,success,sso-01,
+2026-06-12T06:04:25Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-14T00:13:22Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-13T14:51:26Z,198.51.100.137,kdvorak,logout,success,sso-01,
+2026-06-14T13:02:48Z,198.51.100.145,efontaine,logout,success,sso-01,
+2026-06-14T18:03:30Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-10T06:10:00Z,198.51.100.43,weriksen,login,failure,auth-01,Invalid password
+2026-06-09T17:08:06Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-08T18:42:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-08T06:00:36Z,198.51.100.11,ixiong,login,failure,auth-01,Invalid password
+2026-06-13T09:23:00Z,198.51.100.144,rcardoso,logout,success,sso-01,
+2026-06-13T00:24:00Z,198.51.100.86,ldelacroix,login,failure,auth-01,Invalid password
+2026-06-13T23:32:40Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-08T15:00:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T12:42:39Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-08T16:53:00Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-08T16:55:17Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-08T17:54:00Z,198.51.100.138,ipellegrini,access,success,sso-01,
+2026-06-11T22:32:46Z,198.51.100.137,kdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T18:45:21Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-12T06:00:30Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-12T18:05:20Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-13T03:00:00Z,198.51.100.87,awojcik,login,failure,auth-01,Invalid password
+2026-06-12T09:33:38Z,198.51.100.139,jxiong,login,success,sso-01,
+2026-06-10T09:28:13Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-12T03:01:12Z,198.51.100.75,swojcik,login,success,auth-01,Login accepted
+2026-06-12T08:55:33Z,198.51.100.138,ipellegrini,logout,success,sso-01,
+2026-06-14T03:36:14Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-13T06:30:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-11T06:03:00Z,198.51.100.59,wpellegrini,login,failure,auth-01,Invalid password
+2026-06-11T12:12:10Z,198.51.100.139,wwojcik,logout,success,sso-01,
+2026-06-09T12:04:00Z,198.51.100.32,pbergstrom,login,failure,auth-01,Invalid password
+2026-06-11T08:38:13Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-09T18:05:20Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-11T12:25:23Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-11T12:00:40Z,198.51.100.64,mpellegrini,login,failure,auth-01,Invalid password
+2026-06-08T15:23:46Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-12T19:31:44Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-12T00:23:20Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-11T09:12:37Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-09T08:07:15Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-11T12:00:15Z,198.51.100.136,fbergstrom,login,success,sso-01,
+2026-06-12T12:25:24Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-11T08:53:15Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-10T13:39:25Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-10T10:30:45Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-08T12:05:20Z,198.51.100.17,odvorak,login,failure,auth-01,Invalid password
+2026-06-09T11:04:28Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-11T10:01:30Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-09T03:06:40Z,198.51.100.29,hgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T10:43:58Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-13T00:16:07Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-09T16:59:17Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-08T21:01:00Z,198.51.100.21,nfontaine,login,failure,auth-01,Invalid password
+2026-06-11T13:39:14Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-12T03:00:06Z,198.51.100.75,fwojcik,login,success,auth-01,Login accepted
+2026-06-12T02:59:26Z,198.51.100.136,vwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T00:04:30Z,198.51.100.25,spellegrini,login,failure,auth-01,Invalid password
+2026-06-14T15:57:15Z,198.51.100.139,jxiong,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T08:47:08Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-08T15:31:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-08T17:04:21Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-13T15:00:30Z,198.51.100.135,trasmussen,login,failure,auth-01,Invalid password
+2026-06-08T15:55:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-09T03:03:20Z,198.51.100.29,hgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T00:01:38Z,198.51.100.147,labara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T08:10:19Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-13T12:34:12Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-14T20:21:28Z,198.51.100.141,ddvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T08:33:33Z,198.51.100.137,bcastellano,access,success,sso-01,
+2026-06-12T22:56:14Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-12T03:08:48Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-14T07:05:31Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-14T10:21:41Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-13T12:03:45Z,198.51.100.134,pforsberg,login,failure,auth-01,Invalid password
+2026-06-11T15:35:50Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-13T09:01:00Z,198.51.100.93,vzielinski,login,failure,auth-01,Invalid password
+2026-06-09T17:37:36Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-08T22:07:31Z,198.51.100.140,gforsberg,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T11:59:32Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-13T02:51:13Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T10:31:41Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-11T20:16:07Z,198.51.100.145,efontaine,login,failure,auth-01,Invalid password
+2026-06-10T11:04:19Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-11T08:39:19Z,198.51.100.140,gforsberg,logout,success,sso-01,
+2026-06-08T11:12:02Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-12T18:00:50Z,198.51.100.84,ekowalczyk,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T09:06:00Z,198.51.100.61,jrasmussen,login,failure,auth-01,Invalid password
+2026-06-13T09:36:49Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-12T18:28:54Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-11T14:47:29Z,198.51.100.140,clindqvist,logout,success,sso-01,
+2026-06-13T08:07:07Z,198.51.100.139,wwojcik,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T15:02:30Z,198.51.100.65,amoreau,login,failure,auth-01,Invalid password
+2026-06-11T18:05:00Z,198.51.100.68,nzielinski,login,failure,auth-01,Invalid password
+2026-06-12T10:13:40Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-11T14:34:47Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T15:54:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-08T10:08:55Z,198.51.100.143,tulloa,logout,success,sso-01,
+2026-06-14T08:52:32Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-08T21:02:00Z,198.51.100.22,nfontaine,login,failure,auth-01,Invalid password
+2026-06-14T13:18:42Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T21:03:10Z,198.51.100.85,hyilmaz,password_change,success,auth-01,
+2026-06-09T12:51:58Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-12T11:17:45Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-14T10:59:06Z,198.51.100.138,jokafor,login,success,sso-01,
+2026-06-09T08:33:39Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-10T14:28:05Z,198.51.100.138,ipellegrini,logout,success,sso-01,
+2026-06-10T12:11:33Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-12T18:00:08Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T11:20:03Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-12T11:46:51Z,198.51.100.137,kdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T15:05:42Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-12T17:30:09Z,198.51.100.140,gforsberg,login,failure,auth-01,Invalid password
+2026-06-13T07:18:06Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-12T16:44:18Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-08T18:27:32Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-14T12:24:01Z,198.51.100.140,clindqvist,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T12:00:00.400Z,198.51.100.48,mespinoza,login,failure,auth-01,Invalid password
+2026-06-09T18:26:18Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-12T07:00:48Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-10T07:25:53Z,198.51.100.141,ddvorak,login,failure,auth-01,Invalid password
+2026-06-10T11:44:34Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-08T15:56:22Z,198.51.100.138,jokafor,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T12:02:00Z,198.51.100.64,lulloa,login,failure,auth-01,Invalid password
+2026-06-09T10:56:25Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-08T14:25:00Z,198.51.100.142,mulloa,login,failure,auth-01,Invalid password
+2026-06-13T06:18:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T07:02:54Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-13T14:16:43Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T08:18:16Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-11T12:56:50Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-11T11:24:27Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-08T09:03:00Z,198.51.100.14,evarga,login,failure,auth-01,Invalid password
+2026-06-12T12:01:40Z,198.51.100.78,eespinoza,login,success,auth-01,Login accepted
+2026-06-09T16:35:58Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-13T09:09:15Z,198.51.100.126,kbergstrom,login,failure,auth-01,Invalid password
+2026-06-09T15:00:00Z,198.51.100.33,Pnakagawa,login,failure,auth-01,Invalid password
+2026-06-12T21:00:30Z,198.51.100.85,hyilmaz,logout,success,auth-01,
+2026-06-09T20:13:27Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T12:06:40Z,198.51.100.17,fxiong,login,failure,auth-01,Invalid password
+2026-06-12T06:03:45Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T10:47:40Z,198.51.100.137,bcastellano,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T11:40:56Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-14T15:33:58Z,198.51.100.144,rcardoso,access,success,sso-01,
+2026-06-10T06:04:00Z,198.51.100.44,weriksen,login,failure,auth-01,Invalid password
+2026-06-09T16:26:53Z,198.51.100.137,kdvorak,login,success,sso-01,
+2026-06-13T00:06:00Z,198.51.100.86,ldelacroix,login,failure,auth-01,Invalid password
+2026-06-11T08:34:06Z,198.51.100.141,ddvorak,login,success,sso-01,
+2026-06-11T08:30:25Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-12T06:04:30Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T07:53:30Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-10T15:00:00Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-14T11:09:03Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-13T14:11:42Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-11T23:25:43Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T12:49:21Z,198.51.100.145,cabara,login,success,sso-01,
+2026-06-09T00:06:00Z,198.51.100.24,spellegrini,login,failure,auth-01,Invalid password
+2026-06-13T12:21:01Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-08T15:59:31Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-12T06:00:25Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-10T15:00:01Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-12T16:04:20Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-13T15:46:20Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-14T09:20:11Z,198.51.100.138,gdvorak,login,success,sso-01,
+2026-06-10T15:28:00Z,198.51.100.138,gdvorak,access,success,sso-01,
+2026-06-08T05:22:40Z,198.51.100.137,kdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T06:03:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T03:01:18Z,198.51.100.75,mquintero,login,success,auth-01,Login accepted
+2026-06-14T12:17:11Z,198.51.100.140,gforsberg,logout,success,sso-01,
+2026-06-09T14:17:04Z,198.51.100.141,nvarga,logout,success,sso-01,
+2026-06-13T15:01:30Z,198.51.100.135,ezielinski,login,failure,auth-01,Invalid password
+2026-06-13T19:37:21Z,198.51.100.140,snakagawa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T01:36:05Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-12T06:04:35Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-09T12:41:41Z,198.51.100.136,lfontaine,access,success,sso-01,
+2026-06-10T13:02:03Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-11T00:03:00Z,198.51.100.53,gcardoso,login,failure,auth-01,Invalid password
+2026-06-09T17:12:54Z,198.51.100.146,despinoza,login,success,sso-01,
+2026-06-11T15:10:55Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-10T16:29:19Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-12T07:20:09Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-10T16:41:40Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-13T22:50:15Z,198.51.100.138,ipellegrini,login,failure,auth-01,Invalid password
+2026-06-12T05:09:30Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-09T00:00:30Z,198.51.100.25,spellegrini,login,failure,auth-01,Invalid password
+2026-06-08T09:51:27Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-14T11:40:14Z,198.51.100.145,efontaine,access,success,sso-01,
+2026-06-12T04:42:05Z,198.51.100.144,obrennan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T03:01:36Z,198.51.100.75,djovanovic,login,success,auth-01,Login accepted
+2026-06-09T17:42:29Z,198.51.100.138,ipellegrini,login,failure,auth-01,Invalid password
+2026-06-10T07:06:59Z,198.51.100.136,vwojcik,access,success,sso-01,
+2026-06-14T11:15:11Z,198.51.100.142,habara,login,success,sso-01,
+2026-06-09T09:34:33Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T06:27:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T09:42:47Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-11T05:13:22Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-11T12:48:26Z,198.51.100.136,vwojcik,login,failure,auth-01,Invalid password
+2026-06-09T16:39:48Z,198.51.100.145,efontaine,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T15:18:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T03:00:00Z,198.51.100.75,dxiong,login,success,auth-01,Login accepted
+2026-06-08T18:36:32Z,198.51.100.136,fbergstrom,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T05:06:49Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-08T17:12:18Z,198.51.100.136,vwojcik,login,success,sso-01,
+2026-06-12T15:39:14Z,198.51.100.142,mulloa,logout,success,sso-01,
+2026-06-08T12:02:40Z,198.51.100.17,ltakahashi,login,failure,auth-01,Invalid password
+2026-06-09T15:47:18Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-11T05:47:51Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T07:57:35Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-10T05:54:51Z,198.51.100.147,fespinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T09:02:30Z,198.51.100.99,bjovanovic,login,failure,auth-01,Invalid password
+2026-06-13T03:01:00Z,198.51.100.87,awojcik,login,failure,auth-01,Invalid password
+2026-06-09T10:34:36Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-14T12:02:34Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-11T09:04:57Z,198.51.100.143,sibarra,login,success,sso-01,
+2026-06-14T10:31:00Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-08T15:12:36Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-13T03:02:00Z,198.51.100.87,awojcik,login,failure,auth-01,Invalid password
+2026-06-12T13:18:03Z,198.51.100.140,gforsberg,access,success,sso-01,
+2026-06-12T14:37:10Z,198.51.100.141,dgrigoryan,access,success,sso-01,
+2026-06-09T10:44:57Z,198.51.100.137,kdvorak,logout,success,sso-01,
+2026-06-10T15:00:01Z,198.51.100.49,chaldane,login,failure,auth-01,Invalid password
+2026-06-08T15:43:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-12T17:44:51Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-10T10:05:34Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-10T11:21:23Z,198.51.100.143,tulloa,login,success,sso-01,
+2026-06-12T07:21:14Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T08:47:27Z,198.51.100.143,sibarra,logout,success,sso-01,
+2026-06-14T06:12:43Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-14T09:26:02Z,198.51.100.140,gforsberg,login,success,sso-01,
+2026-06-10T14:08:25Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-10T05:03:22Z,198.51.100.138,jokafor,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T12:04:40Z,198.51.100.17,eyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T15:39:29Z,198.51.100.137,kdvorak,logout,success,sso-01,
+2026-06-11T17:07:02Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-11T08:01:49Z,198.51.100.146,despinoza,login,failure,auth-01,Invalid password
+2026-06-09T00:01:30Z,198.51.100.27,spellegrini,login,failure,auth-01,Invalid password
+2026-06-11T12:38:31Z,198.51.100.145,cabara,logout,success,sso-01,
+2026-06-08T09:09:55Z,198.51.100.139,wwojcik,access,success,sso-01,
+2026-06-09T17:12:37Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-08T06:10:36Z,198.51.100.138,jokafor,login,failure,auth-01,Invalid password
+2026-06-12T12:09:02Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-14T11:39:06Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-12T09:34:35Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-09T04:04:39Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-11T09:05:00Z,198.51.100.62,jrasmussen,login,failure,auth-01,Invalid password
+2026-06-11T13:45:26Z,198.51.100.146,despinoza,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-08T11:57:06Z,198.51.100.136,vwojcik,logout,success,sso-01,
+2026-06-14T09:09:47Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-14T00:02:40Z,198.51.100.142,habara,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T20:08:56Z,198.51.100.138,jokafor,login,failure,auth-01,Invalid password
+2026-06-13T07:14:10Z,198.51.100.142,mulloa,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T06:54:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-08T12:23:33Z,198.51.100.139,jxiong,access,success,sso-01,
+2026-06-12T03:02:30Z,198.51.100.75,nnakagawa,login,success,auth-01,Login accepted
+2026-06-08T15:07:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-11T14:40:41Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-09T13:35:24Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-14T07:36:35Z,198.51.100.144,obrennan,access,success,sso-01,
+2026-06-13T15:28:35Z,198.51.100.147,fespinoza,logout,success,sso-01,
+2026-06-10T06:03:00Z,198.51.100.43,weriksen,login,failure,auth-01,Invalid password
+2026-06-08T09:44:20Z,198.51.100.141,ddvorak,login,success,sso-01,
+2026-06-11T06:00:00Z,198.51.100.58,wpellegrini,login,failure,auth-01,Invalid password
+2026-06-14T19:23:57Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-09T11:35:46Z,198.51.100.144,rcardoso,login,failure,auth-01,Invalid password
+2026-06-10T09:04:00,198.51.100.47,gyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T03:00:48Z,198.51.100.75,wsandoval,login,success,auth-01,Login accepted
+2026-06-13T04:22:38Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-08T04:48:59Z,198.51.100.145,cabara,login,failure,auth-01,Invalid password
+2026-06-13T17:02:19Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-11T18:03:00Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-14T09:53:25Z,198.51.100.147,fespinoza,access,success,sso-01,
+2026-06-12T06:01:00Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-11T14:10:32Z,198.51.100.142,mulloa,login,success,sso-01,
+2026-06-13T07:04:13Z,198.51.100.145,cabara,access,success,sso-01,
+2026-06-11T14:02:49Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-13T13:35:58Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-09T03:23:50Z,198.51.100.147,labara,login,failure,auth-01,Invalid password
+2026-06-14T15:16:09Z,198.51.100.144,rcardoso,login,success,sso-01,
+2026-06-10T06:01:00Z,198.51.100.44,weriksen,login,failure,auth-01,Invalid password
+2026-06-13T15:16:52Z,198.51.100.137,kdvorak,access,success,sso-01,
+2026-06-08T09:04:30Z,198.51.100.15,evarga,login,failure,auth-01,Invalid password
+2026-06-08T12:25:51Z,198.51.100.147,fespinoza,login,success,sso-01,
+2026-06-09T08:50:04Z,198.51.100.147,fespinoza,login,failure,auth-01,Invalid password
+2026-06-08T11:12:03Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-12T15:35:15Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-13T09:02:45Z,198.51.100.100,leriksen,login,failure,auth-01,Invalid password
+2026-06-13T09:09:45Z,198.51.100.128,iibarra,login,failure,auth-01,Invalid password
+2026-06-13T07:24:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T09:15:22Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-13T14:29:54Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-11T13:49:05Z,198.51.100.146,tandrade,access,success,sso-01,
+2026-06-11T12:54:03Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-13T07:51:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-14T13:53:13Z,198.51.100.136,fbergstrom,login,failure,auth-01,Invalid password
+2026-06-14T09:46:49Z,198.51.100.139,gkowalczyk,login,failure,auth-01,Invalid password
+2026-06-12T06:02:15Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-08T18:40:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-11T17:27:17Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-14T15:31:47Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-10T03:10:00Z,198.51.100.42,wgrigoryan,login,success,auth-01,Login accepted
+2026-06-12T11:00:00Z,198.51.100.77,vpellegrini,login,failure,auth-01,Invalid password
+2026-06-09T06:45:24Z,198.51.100.146,tandrade,login,failure,auth-01,Invalid password
+2026-06-13T09:08:30Z,198.51.100.123,rkowalczyk,login,failure,auth-01,Invalid password
+2026-06-11T00:04:00Z,198.51.100.52,gcardoso,login,failure,auth-01,Invalid password
+2026-06-08T17:47:44Z,198.51.100.138,jokafor,login,failure,auth-01,Invalid password
+2026-06-12T00:03:00Z,198.51.100.73,alindqvist,login,failure,auth-01,Invalid password
+2026-06-13T09:04:45Z,198.51.100.108,jespinoza,login,failure,auth-01,Invalid password
+2026-06-12T15:02:00Z,198.51.100.81,ncardoso,login,failure,auth-01,Invalid password
+2026-06-08T15:42:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-14T01:46:58Z,198.51.100.141,nvarga,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-12T08:58:12Z,198.51.100.141,ddvorak,access,success,sso-01,
+2026-06-08T02:40:22Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T15:05:30Z,198.51.100.135,ddelacroix,login,success,auth-01,Login accepted
+2026-06-10T18:33:33Z,198.51.100.139,gkowalczyk,logout,success,sso-01,
+2026-06-09T18:02:00Z,2001:db8:e1::17,ghaldane,login,failure,auth-01,Invalid password
+2026-06-13T07:30:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-12T17:14:10Z,198.51.100.147,labara,logout,success,sso-01,
+2026-06-10T10:12:20Z,198.51.100.147,labara,access,success,sso-01,
+2026-06-08T07:47:04Z,198.51.100.137,kdvorak,logout,success,sso-01,
+2026-06-13T17:49:18Z,198.51.100.140,gforsberg,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T16:49:24Z,198.51.100.142,habara,access,success,sso-01,
+2026-06-12T06:01:15Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-14T09:13:04Z,198.51.100.136,fbergstrom,logout,success,sso-01,
+2026-06-09T18:00:00Z,2001:db8:e1::17,okowalczyk,login,failure,auth-01,Invalid password
+2026-06-12T09:58:06Z,198.51.100.138,gdvorak,login,failure,auth-01,Invalid password
+2026-06-10T21:51:41Z,198.51.100.141,dgrigoryan,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-13T06:45:00Z,198.51.100.88,vyilmaz,login,failure,auth-01,Invalid password
+2026-06-10T08:14:57Z,198.51.100.136,lfontaine,login,success,sso-01,
+2026-06-08T15:04:30Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-11T15:57:25Z,198.51.100.139,gkowalczyk,login,success,sso-01,
+2026-06-14T13:54:36Z,198.51.100.146,tandrade,logout,success,sso-01,
+2026-06-12T15:01:00Z,198.51.100.80,eokafor,login,failure,auth-01,Invalid password
+2026-06-11T17:43:17Z,198.51.100.141,dgrigoryan,login,success,sso-01,
+2026-06-12T06:00:20Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-13T16:52:01Z,198.51.100.140,clindqvist,login,success,sso-01,
+2026-06-08T15:51:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T18:52:57Z,198.51.100.142,mulloa,access,success,sso-01,
+2026-06-09T13:20:16Z,198.51.100.145,efontaine,logout,success,sso-01,
+2026-06-13T09:03:45Z,198.51.100.104,cxiong,login,failure,auth-01,Invalid password
+2026-06-14T13:36:08Z,198.51.100.137,cbergstrom,access,success,sso-01,
+2026-06-08T18:57:21Z,198.51.100.140,gforsberg,logout,success,sso-01,
+2026-06-11T12:58:45Z,198.51.100.144,obrennan,login,success,sso-01,
+2026-06-10T19:10:09Z,198.51.100.140,gforsberg,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-09T09:51:07Z,198.51.100.142,habara,logout,success,sso-01,
+2026-06-14T05:00:27Z,198.51.100.143,sibarra,login,failure,auth-01,Invalid password
+2026-06-11T11:41:33Z,198.51.100.139,gkowalczyk,access,success,sso-01,
+2026-06-12T13:15:10Z,198.51.100.141,ddvorak,login,success,sso-01,
+2026-06-13T12:34:44Z,198.51.100.137,kdvorak,login,failure,auth-01,Invalid password
+2026-06-09T11:25:45Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-08T07:57:51Z,198.51.100.140,clindqvist,access,success,sso-01,
+2026-06-13T09:01:15Z,198.51.100.94,vespinoza,login,failure,auth-01,Invalid password
+2026-06-10T14:11:32Z,198.51.100.140,snakagawa,login,failure,auth-01,Invalid password
+2026-06-08T15:15:00Z,198.51.100.18,ojovanovic,login,failure,auth-01,Invalid password
+2026-06-13T08:31:34Z,198.51.100.144,obrennan,login,failure,auth-01,Invalid password
+2026-06-14T17:18:34Z,198.51.100.137,cbergstrom,login,success,sso-01,
+2026-06-09T00:09:30Z,198.51.100.28,spellegrini,login,success,auth-01,Login accepted
+2026-06-08T18:01:00Z,198.51.100.19,ribarra,login,failure,auth-01,Invalid password
+2026-06-08T12:02:00Z,198.51.100.17,bandrade,login,failure,auth-01,Invalid password
+2026-06-12T06:02:30Z,198.51.100.76,nokafor,access,success,etl-01,Read dataset
+2026-06-14T07:11:43Z,198.51.100.147,labara,login,success,sso-01,
+2026-06-13T08:43:51Z,198.51.100.146,despinoza,access,success,sso-01,
+2026-06-13T10:38:49Z,198.51.100.140,snakagawa,login,success,sso-01,
+2026-06-12T03:00:36Z,198.51.100.75,sjovanovic,login,success,auth-01,Login accepted
+2026-06-13T09:06:00Z,198.51.100.113,smoreau,login,failure,auth-01,Invalid password
+2026-06-10T17:06:49Z,198.51.100.145,efontaine,login,success,sso-01,
+2026-06-10T17:23:51Z,198.51.100.138,gdvorak,access,denied,auth-01,Access denied: /finance/payroll
+2026-06-11T15:32:19Z,198.51.100.140,clindqvist,login,failure,auth-01,Invalid password
+2026-06-08T12:39:52Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-14T22:05:03Z,198.51.100.142,habara,login,failure,auth-01,Invalid password
+2026-06-09T07:43:23Z,198.51.100.141,ddvorak,login,success,sso-01,
+2026-06-13T15:59:22Z,198.51.100.136,fbergstrom,access,success,sso-01,
+2026-06-12T13:48:42Z,198.51.100.138,jokafor,logout,success,sso-01,
+2026-06-10T14:07:40Z,198.51.100.141,nvarga,access,success,sso-01,
+2026-06-13T15:33:24Z,198.51.100.140,snakagawa,access,success,sso-01,
+2026-06-09T15:29:28Z,198.51.100.143,tulloa,access,success,sso-01,
+2026-06-10T01:29:15Z,198.51.100.143,sibarra,access,denied,auth-01,Access denied: /finance/payroll

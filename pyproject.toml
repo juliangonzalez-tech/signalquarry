@@ -1,0 +1,31 @@
+[project]
+name = "loglens"
+version = "0.1.0"
+description = "LogLens - a local, explainable security log analyzer built with Streamlit."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.66,<2",
+    "pandas>=3.0,<4",
+    "numpy>=2",
+    "plotly>=6,<8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9,<10",
+    "ruff>=0.17,<0.18",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "C4", "SIM"]

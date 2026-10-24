@@ -1,0 +1,24 @@
+[theme]
+base = "dark"
+primaryColor = "#4DA3FF"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B22"
+textColor = "#E6EDF3"
+font = "sans serif"
+
+[server]
+# Listen on this computer only. Streamlit's default is every network interface, which would
+# expose the app (and any log a user uploads to it) to other machines on the network.
+address = "127.0.0.1"
+# Keep in sync with loglens.schema.MAX_UPLOAD_BYTES (25 MB).
+maxUploadSize = 25
+
+[client]
+# Hide Streamlit's 'Deploy' button (LogLens is a local tool) and show only the exception type,
+# never its message or traceback, in the browser: those can quote uploaded data.
+toolbarMode = "minimal"
+showErrorDetails = "type"
+
+[browser]
+# LogLens never sends log data anywhere; also turn off Streamlit's anonymous usage statistics.
+gatherUsageStats = false
