@@ -6,10 +6,10 @@ import random
 
 import pytest
 
-from loglens.detection import run_detections
-from loglens.parser import LogValidationError, ParseResult, parse_csv
-from loglens.pipeline import annotate_events, build_dataset, load_demo_dataset
-from loglens.sample_data import SAMPLE_PATH
+from signalquarry.detection import run_detections
+from signalquarry.parser import LogValidationError, ParseResult, parse_csv
+from signalquarry.pipeline import annotate_events, build_dataset, load_demo_dataset
+from signalquarry.sample_data import SAMPLE_PATH
 
 VALID_HEADER = "timestamp,source_ip,username,event_type,outcome,host,message\n"
 VALID_ROW = "2026-03-02T10:00:00Z,192.0.2.1,alice,login,failure,sso,bad password\n"

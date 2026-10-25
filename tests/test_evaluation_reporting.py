@@ -18,8 +18,8 @@ from pathlib import Path
 import pytest
 
 from evaluation import run_evaluation as runner
-from loglens.detection import run_detections
-from loglens.parser import parse_csv
+from signalquarry.detection import run_detections
+from signalquarry.parser import parse_csv
 
 README = Path(__file__).resolve().parent.parent / "README.md"
 BASE = datetime(2026, 6, 8, 10, 0, 0, tzinfo=UTC)
@@ -333,7 +333,7 @@ def test_the_scorer_agrees_with_an_independent_recount(drop_duplicates):
 def test_the_headline_numbers_of_the_real_evaluation():
     kept = _recount(drop_duplicates=False)
     removed = _recount(drop_duplicates=True)
-    # 41 alerts were expected; with duplicates kept LogLens generated 43 of which 41 match.
+    # 41 alerts were expected; with duplicates kept SignalQuarry generated 43 of which 41 match.
     assert (kept["expected"], kept["generated"], kept["matched"]) == (41, 43, 41)
     assert (kept["missed"], kept["unexpected"]) == (0, 2)
     assert (removed["expected"], removed["generated"], removed["matched"]) == (41, 39, 39)

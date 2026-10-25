@@ -11,7 +11,7 @@ import pytest
 
 from evaluation import build_evaluation_data as builder
 from evaluation import run_evaluation as runner
-from loglens.detection import DetectionConfig
+from signalquarry.detection import DetectionConfig
 
 
 @pytest.fixture(scope="module")
@@ -42,7 +42,7 @@ def test_the_checked_in_files_are_exactly_what_the_builder_produces(tmp_path, mo
     assert (tmp_path / "truth.json").read_bytes() == runner.TRUTH_PATH.read_bytes()
 
 
-def test_the_builder_does_not_depend_on_loglens_or_its_demo_generator():
+def test_the_builder_does_not_depend_on_signalquarry_or_its_demo_generator():
     tree = ast.parse(Path(builder.__file__).read_text(encoding="utf-8"))
     imported = {
         node.module.split(".")[0] for node in ast.walk(tree) if isinstance(node, ast.ImportFrom)
@@ -52,7 +52,9 @@ def test_the_builder_does_not_depend_on_loglens_or_its_demo_generator():
         if isinstance(node, ast.Import)
         for alias in node.names
     }
-    assert "loglens" not in imported and "streamlit" not in imported and "pandas" not in imported
+    assert (
+        "signalquarry" not in imported and "streamlit" not in imported and "pandas" not in imported
+    )
 
 
 def test_every_account_and_address_belongs_to_exactly_one_case(truth):
@@ -84,7 +86,7 @@ def test_the_file_is_not_in_chronological_order_and_is_all_documentation_address
 
 
 # --------------------------------------------------------------------------------------
-# Scoring LogLens
+# Scoring SignalQuarry
 # --------------------------------------------------------------------------------------
 
 
@@ -167,7 +169,7 @@ def test_the_checked_in_results_file_matches_a_fresh_run(kept, removed):
 
 
 def test_the_application_default_is_the_duplicates_kept_run(kept):
-    from loglens.pipeline import build_dataset
+    from signalquarry.pipeline import build_dataset
 
     dataset = build_dataset(runner.CSV_PATH.name, runner.CSV_PATH.read_bytes())
     assert dataset.drop_duplicates is False

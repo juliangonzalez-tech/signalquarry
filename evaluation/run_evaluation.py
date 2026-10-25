@@ -1,4 +1,4 @@
-"""Score LogLens against the independent evaluation dataset.
+"""Score SignalQuarry against the independent evaluation dataset.
 
     python -m evaluation.run_evaluation            # print the report
     python -m evaluation.run_evaluation --write    # also refresh evaluation/RESULTS.md
@@ -13,7 +13,7 @@ Per (rule, entity) the expected alerts and the actual alerts are compared in tim
 Five counts describe a run, and they always reconcile:
 
 * expected   - alerts the hand-written ground truth says must be raised
-* generated  - alerts LogLens actually raised (every alert, wanted or not)
+* generated  - alerts SignalQuarry actually raised (every alert, wanted or not)
 * matched    - generated alerts that are expected (same rule and entity)
 * missed     - expected alerts that were not generated
 * unexpected - generated alerts that were not expected
@@ -33,8 +33,8 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from loglens.detection import Alert, DetectionConfig, run_detections
-from loglens.parser import parse_csv
+from signalquarry.detection import Alert, DetectionConfig, run_detections
+from signalquarry.parser import parse_csv
 
 HERE = Path(__file__).resolve().parent
 CSV_PATH = HERE / "eval_logs_synthetic.csv"
@@ -49,7 +49,7 @@ class CaseResult:
     title: str
     duplicates_matter: bool
     expected: int = 0  # alerts the ground truth requires
-    generated: int = 0  # alerts LogLens raised for this case's accounts and addresses
+    generated: int = 0  # alerts SignalQuarry raised for this case's accounts and addresses
     matched: int = 0  # expected alerts that were generated
     missing: list[str] = field(default_factory=list)  # expected, not generated
     unexpected: list[str] = field(default_factory=list)  # generated, not expected
@@ -287,18 +287,18 @@ def reconciliation_line(run: Evaluation) -> str:
 def format_report(runs: list[Evaluation], truth: dict | None = None) -> str:
     truth = load_truth() if truth is None else truth
     lines = [
-        "# LogLens evaluation results",
+        "# SignalQuarry evaluation results",
         "",
         "Synthetic evaluation set built independently of the demo generator "
         f"(`evaluation/build_evaluation_data.py`): {truth['total_rows']:,} rows, "
         f"{len(truth['cases']) - 1} scripted cases plus a week of background traffic. "
         "Expected alerts were written by hand from the documented rules, not copied from "
-        "LogLens output.",
+        "SignalQuarry output.",
         "",
         "How to read the counts:",
         "",
-        "- **Expected** - alerts the ground truth says LogLens must raise.",
-        "- **Generated** - every alert LogLens actually raised, wanted or not.",
+        "- **Expected** - alerts the ground truth says SignalQuarry must raise.",
+        "- **Generated** - every alert SignalQuarry actually raised, wanted or not.",
         "- **Matched** - generated alerts that were expected (same rule and same key: the source "
         "IP for LL-001, the account for the other rules). Severity and evidence count are "
         "checked on matched alerts, so a matched alert can still have the wrong severity.",

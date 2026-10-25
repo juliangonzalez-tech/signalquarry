@@ -7,8 +7,8 @@ import random
 import pytest
 from conftest import access, at, build_events, deny, fail, ok
 
-from loglens.detection import DetectionConfig, run_detections, severity_counts
-from loglens.detection.models import CLASSIFICATION
+from signalquarry.detection import DetectionConfig, run_detections, severity_counts
+from signalquarry.detection.models import CLASSIFICATION
 
 IP_A, IP_B, IP_C = "203.0.113.10", "203.0.113.11", "203.0.113.12"
 
@@ -558,7 +558,7 @@ def test_ll003_gap_is_measured_to_the_last_failure_strictly_before_the_first_suc
 
 
 def test_limited_join_truncates_after_three_by_default():
-    from loglens.detection import limited_join
+    from signalquarry.detection import limited_join
 
     assert limited_join(["a", "b", "c"]) == "a, b, c"
     assert limited_join(["a", "b", "c", "d", "e"]) == "a, b, c +2 more"
@@ -567,7 +567,7 @@ def test_limited_join_truncates_after_three_by_default():
 
 
 def test_severity_escalation_boundaries_and_cap():
-    from loglens.detection.models import escalate
+    from signalquarry.detection.models import escalate
 
     assert escalate("low", 14, 5, 3) == "low"  # one below factor x threshold
     assert escalate("low", 15, 5, 3) == "medium"  # exactly at it
@@ -578,7 +578,7 @@ def test_severity_escalation_boundaries_and_cap():
 def test_core_data_structures_are_immutable():
     import dataclasses
 
-    from loglens.detection import RULE_CATALOG
+    from signalquarry.detection import RULE_CATALOG
 
     alert = alerts_for(failures(IP_A, "alice", 6), "LL-001")[0]
     for obj, attribute in ((alert, "severity"), (DetectionConfig(), "denial_threshold"),
@@ -588,7 +588,7 @@ def test_core_data_structures_are_immutable():
 
 
 def test_empty_alert_table_keeps_its_column_types():
-    from loglens.detection import alerts_to_frame
+    from signalquarry.detection import alerts_to_frame
 
     frame = alerts_to_frame([])
     assert frame.empty and str(frame["timestamp"].dt.tz) == "UTC"

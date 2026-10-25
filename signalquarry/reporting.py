@@ -71,7 +71,7 @@ def _to_csv_bytes(frame: pd.DataFrame) -> bytes:
 
 
 def events_to_csv(events: pd.DataFrame) -> bytes:
-    """Events as CSV in the LogLens schema (plus ``event_id`` and ``alert_ids``)."""
+    """Events as CSV in the SignalQuarry schema (plus ``event_id`` and ``alert_ids``)."""
     frame = events.copy()
     if "alert_ids" not in frame.columns:
         frame["alert_ids"] = ""
@@ -133,7 +133,8 @@ def build_summary(
     def heading(text: str) -> None:
         lines.extend(["", text, "-" * len(text)])
 
-    lines += ["LOGLENS SECURITY ANALYSIS SUMMARY", "=" * 33]
+    title = "SIGNALQUARRY SECURITY ANALYSIS SUMMARY"
+    lines += [title, "=" * len(title)]
     lines.append(f"Generated:   {generated_at.strftime('%Y-%m-%d %H:%M:%S')} UTC")
     lines.append(f"Data source: {dataset.label}")
     if dataset.is_demo:

@@ -1193,7 +1193,7 @@
     {
      "entity": "pforsberg",
      "rule": "LL-002",
-     "why": "account-name variants are different accounts to LogLens"
+     "why": "account-name variants are different accounts to SignalQuarry"
     }
    ],
    "rows": 6,
@@ -1203,7 +1203,7 @@
     "pforsberg",
     "pforsberg@example.test"
    ],
-   "why": "6 failures against corp\\x, x@example.test and x (2 each). LogLens treats them as three accounts, so no burst reaches 5."
+   "why": "6 failures against corp\\x, x@example.test and x (2 each). SignalQuarry treats them as three accounts, so no burst reaches 5."
   },
   {
    "duplicates_matter": false,
@@ -1298,7 +1298,7 @@
    "why": "About 1,000 successful logins/accesses, plus single failures at least 36 minutes apart and single denials at least 53 minutes apart. By construction no rule applies."
   }
  ],
- "description": "Independent synthetic evaluation set for LogLens. All data is made up.",
+ "description": "Independent synthetic evaluation set for SignalQuarry. All data is made up.",
  "seed": 20260609,
  "total_rows": 1875
 }

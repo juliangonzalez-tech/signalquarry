@@ -1,12 +1,12 @@
-"""Build the independent LogLens evaluation dataset and its ground truth.
+"""Build the independent SignalQuarry evaluation dataset and its ground truth.
 
-Everything here is SYNTHETIC. This module is deliberately independent of LogLens:
+Everything here is SYNTHETIC. This module is deliberately independent of SignalQuarry:
 
-* it imports nothing from ``loglens`` (``tests/test_evaluation.py`` enforces that);
-* it does not use ``loglens/sample_data.py`` (different accounts, addresses, dates, style);
+* it imports nothing from ``signalquarry`` (``tests/test_evaluation.py`` enforces that);
+* it does not use ``signalquarry/sample_data.py`` (different accounts, addresses, dates, style);
 * the expected alerts are written by hand next to each case, from the rule definitions in the
   README and the original project brief (thresholds 5/10 min, 5/10 min, 15 min, 4/10 min and
-  the severity table), never by running LogLens and copying what it printed.
+  the severity table), never by running SignalQuarry and copying what it printed.
 
 Every case owns its accounts and IP addresses, so any alert can be attributed to exactly one
 case. A case is one of:
@@ -16,7 +16,7 @@ case. A case is one of:
 * ``negative``    - benign or near-miss activity that must produce no alert;
 * ``limitation``  - attack-like activity the documented rules cannot see. The expected alerts
   are what the rules *should* do; ``missed_by_design`` lists what an analyst would want and
-  LogLens will not report;
+  SignalQuarry will not report;
 * ``background``  - routine traffic spread over a week, guaranteed to stay below every
   threshold (failures and denials are at least 36 minutes apart).
 
@@ -728,14 +728,14 @@ def define_cases(b: Builder) -> None:
         "K03",
         "limitation",
         "One identity written three ways",
-        "6 failures against corp\\x, x@example.test and x (2 each). LogLens treats them "
+        "6 failures against corp\\x, x@example.test and x (2 each). SignalQuarry treats them "
         "as three accounts, so no burst reaches 5.",
     )
     ips, user = a.ips(6), a.user()
     variants = (f"corp\\{user}", f"{user}@example.test", user)
     for k, ip in enumerate(ips):
         c.fail(45 * k, ip, variants[k % 3])
-    c.miss("LL-002", user, "account-name variants are different accounts to LogLens")
+    c.miss("LL-002", user, "account-name variants are different accounts to SignalQuarry")
 
     c = b.case(
         "K04",
@@ -810,7 +810,9 @@ def build() -> tuple[list[dict[str, str]], dict[str, object]]:
     random.Random(SEED + 2).shuffle(rows)  # the file is not in chronological order
 
     truth = {
-        "description": "Independent synthetic evaluation set for LogLens. All data is made up.",
+        "description": (
+            "Independent synthetic evaluation set for SignalQuarry. All data is made up."
+        ),
         "seed": SEED,
         "total_rows": len(rows),
         "cases": [

@@ -59,7 +59,7 @@ def render() -> None:
     st.download_button(
         f"Download these {len(events):,} events (CSV)",
         data=lambda: events_to_csv(events),  # built only when clicked
-        file_name="loglens_events.csv",
+        file_name="signalquarry_events.csv",
         mime="text/csv",
         icon=":material/download:",
     )

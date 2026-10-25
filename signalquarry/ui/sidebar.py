@@ -187,7 +187,8 @@ def render() -> None:
             st.session_state[state.EVENT_FILTER] = EventFilter()
         _detection_section()
         st.divider()
+        st.caption("**SignalQuarry** - Explainable Security Log Analyzer")
         st.caption(
-            "LogLens runs entirely on this computer. Uploaded data is held in memory for this "
+            "SignalQuarry runs entirely on this computer. Uploaded data is held in memory for this "
             "session only."
         )

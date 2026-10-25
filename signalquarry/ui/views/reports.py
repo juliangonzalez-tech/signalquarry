@@ -26,7 +26,7 @@ def render() -> None:
         st.download_button(
             "Download events (CSV)",
             data=lambda: events_to_csv(scope.events),  # built only when clicked
-            file_name="loglens_events.csv",
+            file_name="signalquarry_events.csv",
             mime="text/csv",
             icon=":material/download:",
             disabled=scope.events.empty,
@@ -39,7 +39,7 @@ def render() -> None:
         st.download_button(
             "Download alerts (CSV)",
             data=lambda: alerts_to_csv(scope.alerts),
-            file_name="loglens_alerts.csv",
+            file_name="signalquarry_alerts.csv",
             mime="text/csv",
             icon=":material/download:",
             disabled=not scope.alerts,
@@ -53,7 +53,7 @@ def render() -> None:
         st.download_button(
             "Download summary (TXT)",
             data=summary.encode("utf-8"),
-            file_name="loglens_summary.txt",
+            file_name="signalquarry_summary.txt",
             mime="text/plain",
             icon=":material/download:",
             width="stretch",

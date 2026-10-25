@@ -4,7 +4,7 @@ Each rule is a plain function ``(events, config) -> list[Alert]`` and is registe
 ``RULES``. To add a rule: write the function, describe it with a ``RuleInfo`` and append it to
 ``RULES`` / ``RULE_CATALOG`` - the engine, dashboard and exports pick it up automatically.
 
-Event semantics (see ``loglens.schema``):
+Event semantics (see ``signalquarry.schema``):
   failed login          = event_type "login" and outcome "failure"
   successful login      = event_type "login" and outcome "success"
   authorization denial  = ANY event_type with outcome "denied" (access, password_change, ...)

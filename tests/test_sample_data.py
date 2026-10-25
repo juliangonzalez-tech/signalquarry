@@ -7,10 +7,10 @@ import re
 
 import pytest
 
-from loglens.detection import run_detections
-from loglens.parser import parse_csv
-from loglens.pipeline import load_demo_dataset
-from loglens.sample_data import (
+from signalquarry.detection import run_detections
+from signalquarry.parser import parse_csv
+from signalquarry.pipeline import load_demo_dataset
+from signalquarry.sample_data import (
     EXPECTED_ALERTS,
     SAMPLE_PATH,
     generate_csv,
@@ -39,7 +39,7 @@ def test_generation_is_deterministic():
 
 
 def test_bundled_csv_matches_the_generator():
-    # If this fails, regenerate the file with:  python -m loglens.sample_data
+    # If this fails, regenerate the file with:  python -m signalquarry.sample_data
     assert SAMPLE_PATH.read_text(encoding="utf-8") == generate_csv()
 
 

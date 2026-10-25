@@ -1,4 +1,4 @@
-"""LogLens - Streamlit entry point.
+"""SignalQuarry - Streamlit entry point.
 
 Run from the project folder with:  streamlit run app.py
 """
@@ -9,13 +9,13 @@ from pathlib import Path
 
 import streamlit as st
 
-from loglens.ui import components, sidebar, state, theme
-from loglens.ui.views import alerts, explorer, guide, overview, reports
+from signalquarry.ui import components, sidebar, state, theme
+from signalquarry.ui.views import alerts, explorer, guide, overview, reports
 
-LOGO = Path(__file__).resolve().parent / "loglens" / "ui" / "assets" / "logo.svg"
+LOGO = Path(__file__).resolve().parent / "signalquarry" / "ui" / "assets" / "logo.svg"
 
 st.set_page_config(
-    page_title="LogLens - Security Log Analyzer",
+    page_title="SignalQuarry - Explainable Security Log Analyzer",
     page_icon=":material/search_insights:",
     layout="wide",
     initial_sidebar_state="auto",

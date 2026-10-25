@@ -8,7 +8,7 @@ The dataset mixes ordinary activity with six scripted suspicious scenarios (S1-S
 benign high-activity situations (B1-B5) that must NOT raise alerts. ``EXPECTED_ALERTS`` is the
 ground truth for the default detection settings; the test-suite checks the engine against it.
 
-Regenerate the bundled file with:  python -m loglens.sample_data
+Regenerate the bundled file with:  python -m signalquarry.sample_data
 """
 
 from __future__ import annotations

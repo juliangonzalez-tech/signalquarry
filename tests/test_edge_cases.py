@@ -10,11 +10,11 @@ import pytest
 from conftest import at, build_events, deny, fail
 from streamlit.testing.v1 import AppTest
 
-from loglens.detection import DetectionConfig, run_detections
-from loglens.filters import EventFilter
-from loglens.parser import LogValidationError, parse_csv
-from loglens.pipeline import annotate_events, build_dataset
-from loglens.reporting import build_summary, events_to_csv
+from signalquarry.detection import DetectionConfig, run_detections
+from signalquarry.filters import EventFilter
+from signalquarry.parser import LogValidationError, parse_csv
+from signalquarry.pipeline import annotate_events, build_dataset
+from signalquarry.reporting import build_summary, events_to_csv
 
 APP = str(Path(__file__).resolve().parent.parent / "app.py")
 TIMEOUT = 180
@@ -119,14 +119,14 @@ def _render_csv(page: str, csv_text: str) -> None:
 
     import streamlit as st
 
-    from loglens.pipeline import build_dataset
-    from loglens.ui import sidebar, state
+    from signalquarry.pipeline import build_dataset
+    from signalquarry.ui import sidebar, state
 
     state.init_state()
     if st.session_state[state.DATASET] is None:
         state._install(build_dataset("edge.csv", csv_text.encode()))
     sidebar.render()
-    importlib.import_module(f"loglens.ui.views.{page}").render()
+    importlib.import_module(f"signalquarry.ui.views.{page}").render()
 
 
 def page(name: str, csv_text: str) -> AppTest:

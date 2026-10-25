@@ -287,7 +287,8 @@ def _resolve_columns(header: list[str]) -> tuple[dict[str, int], list[str]]:
     normalised = [name.strip().lower() for name in header]
     seen: set[str] = set()
     for name in normalised:
-        # Repeats of columns LogLens ignores anyway are harmless; repeats of its own are ambiguous.
+        # Repeats of columns SignalQuarry ignores anyway are harmless; repeats of its own are
+        # ambiguous.
         if name in CANONICAL_COLUMNS and name in seen:
             raise LogValidationError(f"The column '{name}' appears more than once in the header.")
         seen.add(name)
@@ -297,7 +298,9 @@ def _resolve_columns(header: list[str]) -> tuple[dict[str, int], list[str]]:
         found = ", ".join(repr(n[:40]) for n in normalised[:10]) or "none"
         hint = ""
         if len(header) == 1 and any(sep in header[0] for sep in (";", "\t", "|")):
-            hint = " The file looks like it uses a different delimiter; LogLens expects commas."
+            hint = (
+                " The file looks like it uses a different delimiter; SignalQuarry expects commas."
+            )
         raise LogValidationError(
             f"Missing required column(s): {', '.join(missing)}. Columns found: {found}.{hint} "
             f"Required columns are: {', '.join(REQUIRED_COLUMNS)}."

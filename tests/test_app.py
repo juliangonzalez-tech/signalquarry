@@ -7,7 +7,7 @@ from pathlib import Path
 import pytest
 from streamlit.testing.v1 import AppTest
 
-from loglens.ui.safe import escape_html, escape_label
+from signalquarry.ui.safe import escape_html, escape_label
 
 APP = str(Path(__file__).resolve().parent.parent / "app.py")
 TIMEOUT = 180  # generous: a cold start on a loaded machine must not make a test flaky
@@ -32,7 +32,7 @@ def test_first_screen_is_a_welcome_with_no_errors():
     app = fresh_app()
     assert not app.exception
     text = " ".join(m.value for m in app.markdown)
-    assert "Welcome to LogLens" in text
+    assert "Welcome to SignalQuarry" in text
     assert any(b.key == "welcome_demo" for b in app.button)
     assert not app.metric  # no numbers before data is loaded
 
@@ -75,7 +75,7 @@ def test_time_range_slider_filters_events_with_inclusive_end_minute():
 
     import pandas as pd
 
-    from loglens.pipeline import load_demo_dataset
+    from signalquarry.pipeline import load_demo_dataset
 
     events = load_demo_dataset().events
     app = load_demo(fresh_app())
@@ -100,7 +100,7 @@ def test_time_range_slider_filters_events_with_inclusive_end_minute():
 
 
 def test_each_sidebar_filter_widget_is_wired_to_the_right_field():
-    from loglens.pipeline import load_demo_dataset
+    from signalquarry.pipeline import load_demo_dataset
 
     events = load_demo_dataset().events
     cases = {
@@ -141,7 +141,7 @@ def test_search_filter_matches_the_scope_bar_and_metrics():
 
 
 def test_every_detection_setting_explains_itself_and_matches_the_defaults():
-    from loglens.detection import DetectionConfig
+    from signalquarry.detection import DetectionConfig
 
     app = load_demo(fresh_app())
     controls = {n.key.removeprefix("cfg_"): n for n in app.sidebar.number_input}
@@ -170,13 +170,13 @@ def _render_view(page: str, load_demo_data: bool) -> None:
 
     import streamlit as st
 
-    from loglens.ui import sidebar, state
+    from signalquarry.ui import sidebar, state
 
     state.init_state()
     if load_demo_data and st.session_state[state.DATASET] is None:
         state.load_demo()
     sidebar.render()
-    importlib.import_module(f"loglens.ui.views.{page}").render()
+    importlib.import_module(f"signalquarry.ui.views.{page}").render()
 
 
 def view_app(page: str, *, demo: bool = True) -> AppTest:
@@ -190,7 +190,7 @@ def test_every_page_renders_with_and_without_data(page, demo):
     app = view_app(page, demo=demo)
     assert not app.exception
     if not demo and page != "guide":
-        assert any("Welcome to LogLens" in m.value for m in app.markdown)
+        assert any("Welcome to SignalQuarry" in m.value for m in app.markdown)
 
 
 def test_reference_content_is_wrapping_text_not_a_truncating_grid():
@@ -286,8 +286,8 @@ def _render_hostile(page: str) -> None:
 
     import streamlit as st
 
-    from loglens.pipeline import build_dataset
-    from loglens.ui import sidebar, state
+    from signalquarry.pipeline import build_dataset
+    from signalquarry.ui import sidebar, state
 
     state.init_state()
     if st.session_state[state.DATASET] is None:
@@ -313,7 +313,7 @@ def _render_hostile(page: str) -> None:
         name = "![f](https://example.invalid/f.png).csv"
         state._install(build_dataset(name, "\n".join(lines).encode()))
     sidebar.render()
-    importlib.import_module(f"loglens.ui.views.{page}").render()
+    importlib.import_module(f"signalquarry.ui.views.{page}").render()
 
 
 MARKDOWN_ELEMENTS = ("markdown", "caption", "info", "error", "warning", "success", "subheader")
@@ -339,8 +339,8 @@ def test_hostile_log_content_never_reaches_markdown_rendering(page):
 def _render_many_users() -> None:
     import streamlit as st
 
-    from loglens.pipeline import build_dataset
-    from loglens.ui import sidebar, state
+    from signalquarry.pipeline import build_dataset
+    from signalquarry.ui import sidebar, state
 
     state.init_state()
     if st.session_state[state.DATASET] is None:
@@ -360,7 +360,7 @@ def _run_ingest_scenario(scenario: str) -> None:
 
     import streamlit as st
 
-    from loglens.ui import state
+    from signalquarry.ui import state
 
     state.init_state()
     header = "timestamp,source_ip,username,event_type,outcome\n"
@@ -498,8 +498,8 @@ def test_settings_widgets_take_their_values_only_from_session_state(monkeypatch)
 
 
 def test_changed_detection_settings_are_named_in_the_scope_bar():
-    from loglens.detection import DetectionConfig
-    from loglens.ui.state import changed_settings
+    from signalquarry.detection import DetectionConfig
+    from signalquarry.ui.state import changed_settings
 
     app = load_demo(fresh_app())
     assert "Detection settings changed" not in " ".join(h.proto.body for h in app.get("html"))
@@ -513,8 +513,8 @@ def test_changed_detection_settings_are_named_in_the_scope_bar():
 
 
 def test_severity_labels_sort_in_severity_order():
-    from loglens.detection import SEVERITIES
-    from loglens.ui.components import severity_label
+    from signalquarry.detection import SEVERITIES
+    from signalquarry.ui.components import severity_label
 
     labels = [severity_label(level) for level in SEVERITIES]
     assert sorted(labels) == labels  # what clicking the column header does

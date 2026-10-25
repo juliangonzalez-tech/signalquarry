@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import numpy as np
 
-from loglens.detection.windows import find_clusters
+from signalquarry.detection.windows import find_clusters
 
 BASE = np.datetime64("2026-03-02T10:00:00", "ns")
 WINDOW = np.timedelta64(10, "m")

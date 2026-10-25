@@ -149,8 +149,8 @@ def _inspector(scope, frame: pd.DataFrame, alerts_by_id: dict[str, Alert]) -> No
         st.markdown("**Could be harmless if...**")
         st.markdown("\n".join(f"- {cause}" for cause in rule.benign_causes))
         st.caption(
-            "LogLens only sees log events, not intent. Check whether the activity matches a known "
-            "user, device or job before treating it as an attack."
+            "SignalQuarry only sees log events, not intent. Check whether the activity matches a "
+            "known user, device or job before treating it as an attack."
         )
 
     evidence = scope.all_events[scope.all_events["event_id"].isin(alert.event_ids)]
@@ -220,7 +220,7 @@ def render() -> None:
         st.download_button(
             f"Download these {len(displayed):,} alerts (CSV)",
             data=lambda: alerts_to_csv(displayed),
-            file_name="loglens_alerts_shown.csv",
+            file_name="signalquarry_alerts_shown.csv",
             mime="text/csv",
             icon=":material/download:",
         )

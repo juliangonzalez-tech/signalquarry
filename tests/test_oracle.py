@@ -30,7 +30,7 @@ from datetime import timedelta
 import pytest
 from conftest import T0, build_events
 
-from loglens.detection import DetectionConfig, run_detections
+from signalquarry.detection import DetectionConfig, run_detections
 
 SEVERITIES = ["low", "medium", "high", "critical"]
 BASE = {"LL-001": "medium", "LL-002": "medium", "LL-003": "high", "LL-004": "low"}

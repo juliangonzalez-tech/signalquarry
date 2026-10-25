@@ -13,17 +13,17 @@ import pytest
 from test_app import APP, TIMEOUT, fresh_app, load_demo, metric_values, view_app
 from test_edge_cases import BENIGN, HEADER, page
 
-from loglens.detection import (
+from signalquarry.detection import (
     RULE_CATALOG,
     SEVERITIES,
     DetectionConfig,
     describe_rules,
     run_detections,
 )
-from loglens.parser import parse_csv
-from loglens.pipeline import build_dataset, load_demo_dataset
-from loglens.ui import state, tables
-from loglens.ui.components import SEVERITY_EMOJI, severity_label
+from signalquarry.parser import parse_csv
+from signalquarry.pipeline import build_dataset, load_demo_dataset
+from signalquarry.ui import state, tables
+from signalquarry.ui.components import SEVERITY_EMOJI, severity_label
 
 RANK = {"low": 0, "medium": 1, "high": 2, "critical": 3}
 

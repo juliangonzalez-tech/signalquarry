@@ -1,6 +1,6 @@
-"""The canonical LogLens event schema and the vocabulary it accepts.
+"""The canonical SignalQuarry event schema and the vocabulary it accepts.
 
-Every log that enters LogLens is validated against, and normalised to, this schema.
+Every log that enters SignalQuarry is validated against, and normalised to, this schema.
 Supporting another log format later means writing a new parser that outputs these columns;
 nothing downstream (detection, charts, exports) needs to change.
 """

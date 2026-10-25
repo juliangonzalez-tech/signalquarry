@@ -11,7 +11,7 @@ from .. import components, state
 
 def render() -> None:
     components.page_header(
-        "Guide", "What LogLens does, how each detection works, and what it cannot tell you."
+        "Guide", "What SignalQuarry does, how each detection works, and what it cannot tell you."
     )
     config = state.current_config()
 
@@ -20,8 +20,8 @@ def render() -> None:
         "- **Event**: one line of a log, such as a login attempt or an access request.\n"
         "- **Alert**: a *cluster* of events that crossed a detection threshold. One alert covers a "
         "whole burst, not one per event.\n"
-        "- **Heuristic flag**: a rule-based lead that needs human review. LogLens never declares "
-        "an incident confirmed.\n"
+        "- **Heuristic flag**: a rule-based lead that needs human review. SignalQuarry never "
+        "declares an incident confirmed.\n"
         "- **Rolling window**: the last N minutes before each event, measured with real "
         "timestamps. Window edges are inclusive: events exactly 10:00 apart share a 10-minute "
         "window.\n"
@@ -50,8 +50,9 @@ def render() -> None:
         "**How LL-003 correlates events.** The link between failures and a success is the "
         "**username**, regardless of source IP. A *qualifying burst* is a cluster of that "
         "account's failed logins, defined exactly as for LL-002. For every successful login at "
-        "time *s*, LogLens considers the account's failures strictly before *s*; if the **last "
-        "failure of a qualifying burst** was no more than the investigation window before *s*, "
+        "time *s*, SignalQuarry considers the account's failures strictly before *s*; if the "
+        "**last failure of a qualifying burst** was no more than the investigation window before "
+        "*s*, "
         "the success is flagged. The window runs from the end of the burst, so a long burst does "
         "not shorten it. The evidence is every burst that ended inside the window plus the "
         "success, and several successes after the same burst are merged into one alert.\n\n"
@@ -79,7 +80,7 @@ def render() -> None:
         "`alice@example.com` are three accounts.\n"
         "- Messages longer than 2,000 characters are truncated; usernames and hosts over 256 "
         "characters are rejected.\n"
-        "- LogLens analyses one file at a time and has no knowledge of your network, users or "
+        "- SignalQuarry analyses one file at a time and has no knowledge of your network, users or "
         "threat intelligence.\n"
         "- **No alerts does not mean no attack**, and an alert does not mean there was one."
     )
@@ -98,7 +99,7 @@ def render() -> None:
 
     st.markdown("### Privacy")
     st.markdown(
-        "LogLens runs on this computer and only accepts connections from it. Your log data is "
+        "SignalQuarry runs on this computer and only accepts connections from it. Your log data is "
         "parsed in memory, never transmitted to any service, and not stored on disk. Closing or "
         "reloading the browser tab ends the session: Streamlit keeps it for about two minutes in "
         "case you reconnect, then discards it, so reloading means loading the file again. Text "

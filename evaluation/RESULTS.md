@@ -1,11 +1,11 @@
-# LogLens evaluation results
+# SignalQuarry evaluation results
 
-Synthetic evaluation set built independently of the demo generator (`evaluation/build_evaluation_data.py`): 1,875 rows, 45 scripted cases plus a week of background traffic. Expected alerts were written by hand from the documented rules, not copied from LogLens output.
+Synthetic evaluation set built independently of the demo generator (`evaluation/build_evaluation_data.py`): 1,875 rows, 45 scripted cases plus a week of background traffic. Expected alerts were written by hand from the documented rules, not copied from SignalQuarry output.
 
 How to read the counts:
 
-- **Expected** - alerts the ground truth says LogLens must raise.
-- **Generated** - every alert LogLens actually raised, wanted or not.
+- **Expected** - alerts the ground truth says SignalQuarry must raise.
+- **Generated** - every alert SignalQuarry actually raised, wanted or not.
 - **Matched** - generated alerts that were expected (same rule and same key: the source IP for LL-001, the account for the other rules). Severity and evidence count are checked on matched alerts, so a matched alert can still have the wrong severity.
 - **Missed** - expected alerts that were not generated.
 - **Unexpected** - generated alerts that were not expected.

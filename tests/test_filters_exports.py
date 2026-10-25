@@ -8,13 +8,13 @@ from datetime import datetime
 import pandas as pd
 import pytest
 
-from loglens import charts
-from loglens.detection import DetectionConfig, alerts_to_frame, run_detections
-from loglens.filters import EventFilter, alerts_in_scope, apply_event_filter
-from loglens.metrics import compute_metrics, top_source_ips
-from loglens.parser import parse_csv
-from loglens.pipeline import annotate_events, load_demo_dataset
-from loglens.reporting import (
+from signalquarry import charts
+from signalquarry.detection import DetectionConfig, alerts_to_frame, run_detections
+from signalquarry.filters import EventFilter, alerts_in_scope, apply_event_filter
+from signalquarry.metrics import compute_metrics, top_source_ips
+from signalquarry.parser import parse_csv
+from signalquarry.pipeline import annotate_events, load_demo_dataset
+from signalquarry.reporting import (
     ALERT_EXPORT_COLUMNS,
     EVENT_EXPORT_COLUMNS,
     alerts_to_csv,

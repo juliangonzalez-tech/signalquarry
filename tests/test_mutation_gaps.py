@@ -13,12 +13,12 @@ import pandas as pd
 import pytest
 from conftest import at, build_events, fail, ok
 
-from loglens.detection import DetectionConfig, run_detections
-from loglens.filters import EventFilter, apply_event_filter
-from loglens.metrics import OverviewMetrics, top_source_ips
-from loglens.parser import ISSUE_COLUMNS, LogValidationError, parse_csv
-from loglens.pipeline import annotate_events, build_dataset
-from loglens.reporting import build_summary
+from signalquarry.detection import DetectionConfig, run_detections
+from signalquarry.filters import EventFilter, apply_event_filter
+from signalquarry.metrics import OverviewMetrics, top_source_ips
+from signalquarry.parser import ISSUE_COLUMNS, LogValidationError, parse_csv
+from signalquarry.pipeline import annotate_events, build_dataset
+from signalquarry.reporting import build_summary
 
 HEADER = "timestamp,source_ip,username,event_type,outcome,host,message\n"
 
@@ -299,7 +299,7 @@ def test_composed_and_decomposed_spellings_of_a_name_are_one_account():
 
 
 def test_uploaded_data_is_never_labelled_as_demo_by_default():
-    from loglens.pipeline import Dataset, load_demo_dataset
+    from signalquarry.pipeline import Dataset, load_demo_dataset
 
     upload = build_dataset("mine.csv", (HEADER + row()).encode())
     assert upload.is_demo is False and upload.drop_duplicates is False
@@ -331,14 +331,14 @@ def test_filter_description_shortens_at_exactly_the_fifth_value():
 
 
 def test_empty_alert_frame_has_utc_for_both_time_columns():
-    from loglens.detection import alerts_to_frame
+    from signalquarry.detection import alerts_to_frame
 
     frame = alerts_to_frame([])
     assert str(frame["timestamp"].dt.tz) == "UTC" and str(frame["end_timestamp"].dt.tz) == "UTC"
 
 
 def _demo_summary():
-    from loglens.pipeline import load_demo_dataset
+    from signalquarry.pipeline import load_demo_dataset
 
     dataset = load_demo_dataset()
     alerts = run_detections(dataset.events)
@@ -357,7 +357,7 @@ def test_summary_counts_alerts_per_rule_exactly():
 def test_summary_layout_title_width_top_ips_and_source_ip_cap():
     text, alerts = _demo_summary()
     lines = text.splitlines()
-    assert lines[0] == "LOGLENS SECURITY ANALYSIS SUMMARY" and lines[1] == "=" * len(lines[0])
+    assert lines[0] == "SIGNALQUARRY SECURITY ANALYSIS SUMMARY" and lines[1] == "=" * len(lines[0])
     assert max(len(line) for line in lines) <= 96  # fits a 96-column terminal
     top = text.split("TOP SOURCE IPS (by event count)\n")[1].split("\n\n")[0].splitlines()
     assert len(top[1:]) == 5  # heading underline + exactly five IPs

@@ -9,7 +9,7 @@ import pandas as pd
 SEVERITIES: tuple[str, ...] = ("low", "medium", "high", "critical")
 SEVERITY_RANK: dict[str, int] = {name: rank for rank, name in enumerate(SEVERITIES)}
 
-# Every alert is a heuristic flag for an analyst to review. LogLens never labels anything a
+# Every alert is a heuristic flag for an analyst to review. SignalQuarry never labels anything a
 # confirmed incident: it only sees logs, not intent.
 CLASSIFICATION = "Heuristic flag"
 

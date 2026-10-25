@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 40" width="170" height="40" role="img" aria-label="LogLens">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205 40" width="205" height="40" role="img" aria-label="SignalQuarry">
   <g fill="none" stroke="#4DA3FF" stroke-width="3" stroke-linecap="round">
     <circle cx="18" cy="18" r="11"/>
     <line x1="26" y1="26" x2="34" y2="34"/>
   </g>
   <path d="M11.5 20.5 l4.5 -5.5 l3.5 3.5 l4.5 -6.5" fill="none" stroke="#E6EDF3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="46" y="27" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#E6EDF3">LogLens</text>
+  <text x="46" y="27" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#E6EDF3">SignalQuarry</text>
 </svg>

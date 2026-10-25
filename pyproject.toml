@@ -1,7 +1,7 @@
 [project]
-name = "loglens"
+name = "signalquarry"
 version = "0.1.0"
-description = "LogLens - a local, explainable security log analyzer built with Streamlit."
+description = "SignalQuarry - a local, explainable security log analyzer built with Streamlit."
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]

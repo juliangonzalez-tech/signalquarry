@@ -7,7 +7,7 @@ import random
 import pandas as pd
 import pytest
 
-from loglens.parser import LogValidationError, parse_csv
+from signalquarry.parser import LogValidationError, parse_csv
 
 HEADER = "timestamp,source_ip,username,event_type,outcome,host,message\n"
 
@@ -166,7 +166,7 @@ def test_ipv4_mapped_ipv6_is_the_same_address_as_plain_ipv4():
 
 
 def test_attack_spread_over_ipv4_and_mapped_forms_is_still_one_source_for_ll001():
-    from loglens.detection import run_detections
+    from signalquarry.detection import run_detections
 
     lines = []
     for i in range(6):  # six failures from one host, logged alternately in both notations
@@ -367,7 +367,7 @@ def test_ipv6_zone_ids_are_rejected_and_their_text_is_not_quoted_back(zoned):
 def test_accepted_source_ips_contain_only_address_characters():
     import re
 
-    from loglens.sample_data import generate_csv
+    from signalquarry.sample_data import generate_csv
 
     events = parse_csv(generate_csv()).events
     assert events["source_ip"].map(lambda ip: bool(re.fullmatch(r"[0-9a-f:.]+", ip))).all()

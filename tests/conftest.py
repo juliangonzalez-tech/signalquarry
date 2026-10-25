@@ -9,8 +9,8 @@ from datetime import UTC, datetime, timedelta
 
 import pandas as pd
 
-from loglens.parser import parse_csv
-from loglens.schema import CANONICAL_COLUMNS
+from signalquarry.parser import parse_csv
+from signalquarry.schema import CANONICAL_COLUMNS
 
 T0 = datetime(2026, 3, 2, 10, 0, 0, tzinfo=UTC)
 
