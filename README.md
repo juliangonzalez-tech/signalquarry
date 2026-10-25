@@ -102,8 +102,8 @@ Every alert is a *heuristic flag* for a person to review, never a verdict.
 
 ## Install and run
 
-**Prerequisite: Python 3.11 or newer** (the minimum that pandas 3 and Streamlit support; only
-3.13 has actually been tested, see [Continuous integration](#continuous-integration)). Check
+**Prerequisite: Python 3.11 or newer** (the minimum that pandas 3 and Streamlit support; the tests
+pass on 3.11, 3.12 and 3.13 in CI, see [Continuous integration](#continuous-integration)). Check
 with `python3 --version` (Windows: `py -3 --version`).
 The Python that ships with macOS (`/usr/bin/python3`, version 3.9) is too old: installing there
 fails with a long `No matching distribution found for streamlit` error. If you see that, install
@@ -409,10 +409,11 @@ as separate jobs, so one failure does not hide the others.
 
 Compatibility notes:
 
-- **The matrix has not run yet.** All results in this README come from Python 3.13.5 on macOS
-  (streamlit 1.66.1, pandas 3.1.0, numpy 2.5.4, plotly 7.1.0). Python 3.11 and 3.12 are
-  supported on paper (`requires-python >=3.11`) and are first exercised when the workflow runs
-  on GitHub. Treat them as untested until the workflow shows green for them.
+- **CI status.** The workflow has passed on Python 3.11, 3.12 and 3.13 (Ubuntu): in each job
+  `ruff check` and `ruff format --check` succeeded and all 451 tests passed (first green run:
+  commit `dd69fe3`, Python 3.11.17, 3.12.15 and 3.13.16). The timings, screenshots and
+  manual browser checks in this README come from Python 3.13.5 on macOS (streamlit 1.66.1,
+  pandas 3.1.0, numpy 2.5.4, plotly 7.1.0), not from CI.
 - **The jobs do not use identical dependency versions.** `requirements.txt` sets lower bounds
   and upper major bounds, and pip takes the newest release each interpreter allows. numpy 2.5
   requires Python 3.12 or newer, so the 3.11 job resolves an older numpy. Each job prints the
@@ -537,8 +538,9 @@ hosted copy, and use only synthetic data for a public demo.
     download always has all of them.
   - Nothing larger than the 25 MB limit was tested.
 - **Tested environments.** macOS, Python 3.13.5, and the Claude desktop app's built-in browser.
-  Headless Google Chrome was used only to take the screenshots. Other operating systems, Python
-  3.11/3.12, Firefox and Safari were not tested.
+  Headless Google Chrome was used only to take the screenshots. Other operating systems, Firefox and
+  Safari were not tested. Python 3.11 and 3.12 were exercised only by the CI test suite, not by
+  running the app in a browser.
 - `Time range` filtering has minute precision (the end minute is included in full).
 
 ## Project layout
